@@ -1,8 +1,6 @@
 
 :root{
-    --verde: rgb(0, 200, 0);
-    --verdeFuerte: rgb(0, 100, 0);
-    --verdeFondo: rgb(107, 175, 135);
+    --gris: rgb(170, 170, 170);
     --negro: rgb(0, 0, 0);
     --blanco: rgb(255, 255, 255);
 }
@@ -53,4 +51,6 @@ footer{
     border-left: solid 2px var(--negro);
     margin-right: 1rem;
 }
-
+.navbar-toggler{
+    margin: 1rem;
+}
