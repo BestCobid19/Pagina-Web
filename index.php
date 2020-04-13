@@ -13,7 +13,9 @@ include('header.php');
         <div class="texto">
             <h1><span class="bordeIzquierda"></span>¿Quiénes somos?</h1>
             <p>Somos dos estudiantes de CFGM que tenemos como objetivo hacer esta página web para el proyecto de FCT con el final de informar a la población
-                sobre el COVID-19, explicando que es, características, consejos y bulos. </p>
+                sobre el COVID-19, explicando que es, características, consejos y bulos. 
+                El luisiko esta gordisimo el hijo de la gran puta le voy a meter un puño y tumbao el kvron.
+                </p>
         </div>
         <div class="texto">
 
