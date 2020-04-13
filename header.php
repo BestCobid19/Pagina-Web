@@ -15,7 +15,7 @@
     <nav class="nav bordenavbar">
         <ul class="nav">
             <li class="nav-item">
-                <a class="nav-link active" href="#">Active</a>
+                <a class="nav-link active" href="#">¿Que es el COVID-19?</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link active" href="#">Link</a>
