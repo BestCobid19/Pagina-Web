@@ -102,7 +102,7 @@ label:after{
     height:20px;
     background: #fff;
     border-radius:90px;
-    transition:0.3s;
+    
 }
 input:checked + label {
     background: var(--verde);
