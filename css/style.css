@@ -37,6 +37,9 @@ footer{
 
 
 }
+.navbar-toggler{
+    margin: 1rem;
+}
 .bordenavbar{
     border-bottom: solid 0.2px var(--negro);
     background-color: var(--bg);
