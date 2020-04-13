@@ -26,5 +26,8 @@
             <li class="nav-item">
                 <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
             </li>
+            <li class="switcher">
+                <input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label>              
+            </li>
         </ul>
     </nav>
