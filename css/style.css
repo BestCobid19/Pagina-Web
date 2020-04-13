@@ -1,0 +1,56 @@
+
+:root{
+    --verde: rgb(0, 200, 0);
+    --verdeFuerte: rgb(0, 100, 0);
+    --verdeFondo: rgb(107, 175, 135);
+    --negro: rgb(0, 0, 0);
+    --blanco: rgb(255, 255, 255);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+footer{
+    border: solid 0.2px var(--negro);
+    margin: 10px 10px;
+    font-family: 'Gloria Hallelujah', cursive;
+
+
+}
+.bordenavbar{
+    border-bottom: solid 0.2px var(--negro);
+    background-color: var(--blanco);
+}
+.borde{
+    border: solid 0.2px var(--negro);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+.nav-link {
+    color: var(--negro);
+    text-decoration: none;
+    padding: 1.5rem;
+}
+.nav-link:hover {
+    color: var(--negro);
+    border-bottom: solid var(--blanco);
+}
+.jumbotron1{
+    
+    padding-bottom: 1rem;
+    background-color: var(--blanco);
+    text-align: center;
+    margin-top: 2rem;
+    margin-right: 6.6rem;
+    margin-left: 6.6rem;
+}
+.texto{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.bordeIzquierda{
+    border-left: solid 2px var(--negro);
+    margin-right: 1rem;
+}
+
