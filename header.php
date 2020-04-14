@@ -12,11 +12,11 @@
 
 <body>
     <nav class="nav navbar-expand-lg bordenavbar navbar-light">
-        
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="nav">
                 <li class="nav-item">
                     <a class="nav-link active" href="#">¿Que es el COVID-19?</a>
@@ -34,8 +34,6 @@
                     <a class="nav-link active" href="#">Lo que usted puede hacer</a>
                 </li>
             </ul>
-            <li class="switcher">
-                <input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label>              
-            </li>
+            <button type="button" id="switch" class="btn btn-outline-danger">Cambiar Thema</button>
         </div>
     </nav>

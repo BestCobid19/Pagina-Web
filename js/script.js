@@ -1,16 +1,26 @@
-var checkbox = document.querySelector('input[name=theme]');
+let darckMode = localStorage.getItem("darkMode");
+const darckModeToggle = document.querySelector("#switch");
 
-checkbox.addEventListener('change', function(){
-    if(this.checked){
-        trans()
-        document.documentElement.setAttribute('data-theme', 'dark')
-    } else {
-        document.documentElement.setAttribute('data-theme', 'light')
-    }
-})
-let trans = () => {
-    document.documentElement.classList.add('transition');
-    window.setTimeout(() => {
-        document.documentElement.classList.remove('transition')
-    }, 300)
+const enableDarckMode = () => {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    localStorage.setItem("darkMode", "enabled");
+};
+
+const disableDarkMode = () => {
+    document.documentElement.setAttribute('data-theme', 'light')
+    localStorage.setItem("darkMode", "null");
+};
+
+if (darckMode === "enabled"){
+    enableDarckMode();
 }
+
+darckModeToggle.addEventListener("click", () => {
+    darckMode = localStorage.getItem("darkMode");
+    if (darckMode !== "enabled"){
+        enableDarckMode();
+        
+    }else {
+        disableDarkMode();
+    }
+});
