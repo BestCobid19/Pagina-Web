@@ -40,7 +40,6 @@ body{
     background:none;
     border:4px solid;
     color:var(--boton);
-    margin-left: 5rem;
     font-weight: 600;
     text-transform: uppercase;
     cursor: pointer;
