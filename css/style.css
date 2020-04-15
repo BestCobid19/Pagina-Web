@@ -55,7 +55,7 @@ footer{
     padding: 1.5rem;
 }
 .nav-link:hover {
-    color: var(--blanco);
+    color: palevioletred;
     border-bottom: solid var(--blanco);
 }
 .jumbotron1{
