@@ -34,19 +34,19 @@ body{
     color: var(--color-text);
 
 }
-/*Boton*/ 
 .boton{
-    width:150px;
+    width:200px;
     height:50px;
     background:none;
     border:4px solid;
     color:var(--boton);
+    margin-left: 680px;
     font-weight: 600;
     text-transform: uppercase;
     cursor: pointer;
     font-size:14px;
     position: relative;
-   
+    
 }
 .boton::before,.boton::after{
     content: "";
@@ -71,8 +71,6 @@ body{
 .boton:hover::after{
     right:80%;  
 }
-/*Fin del boton*/
-
 footer{
     border: solid 0.2px var(--negro);
     margin: 10px 10px;

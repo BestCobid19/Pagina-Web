@@ -19,13 +19,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="nav">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">¿Que es el COVID-19?</a>
+                    <a class="nav-link active" href="#">¿Qué es el COVID-19?</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Sintomas</a>
+                    <a class="nav-link active" href="#">Síntomas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">¿Que hacer si estas enfermo?</a>
+                    <a class="nav-link active" href="#">¿Qué hacer si estás enfermo?</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Evite enfermarse</a>
