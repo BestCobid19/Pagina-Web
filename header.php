@@ -34,6 +34,6 @@
                     <a class="nav-link active" href="#">Lo que usted puede hacer</a>
                 </li>
             </ul>
-            <button type="button" id="switch" class="btn btn-outline-danger">Cambiar Thema</button>
+            <button type="button" id="switch" class="boton">Cambiar Tema</button>
         </div>
     </nav>
