@@ -20,16 +20,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="nav">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#"><i class="fas fa-info"></i> ¿Qué es el COVID-19?</a>
+                    <a class="nav-link active" href="index.php"><i class="fas fa-info"></i> Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#"><i class="fas fa-viruses"></i> Síntomas</i></a>
+                    <a class="nav-link active" href="covid-19.php"><i class="fas fa-info"></i> ¿Qué es el COVID-19?</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#"><i class="fas fa-question"></i> ¿Qué hacer si estás enfermo?</a>
+                    <a class="nav-link active" href="sintomas.php"><i class="fas fa-viruses"></i> Síntomas</i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true"><i class="fas fa-shield-virus"></i> Evite el contagio</a>
+                    <a class="nav-link active" href="propaga.php"><i class="fas fa-question"></i> ¿Cómo se propaga la COVID-19?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="evitar_el_contagio.php" tabindex="-1" aria-disabled="true"><i class="fas fa-shield-virus"></i> Evite el contagio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="https://coronavirus.app/map" target="_blank"><i class="far fa-hand-paper"></i> Coronavirus App</a>

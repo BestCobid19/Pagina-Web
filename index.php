@@ -13,16 +13,16 @@ include('header.php');
         <div class="texto">
             <h1><span class="bordeIzquierdaFino"></span>¿Quiénes somos?</h1>
             <p>Somos dos estudiantes de CFGM que tenemos como objetivo hacer esta página web para el proyecto de FCT con el final de informar a la población
-                sobre el COVID-19, explicando que es, características, consejos y bulos. 
+                sobre la COVID-19, explicando que es, características, consejos y bulos. 
                 </p>
         </div>
         <div class="texto">
 
             <h1><span class="bordeIzquierdaFino"></span>Nuestras fuentes</h1>
             <p>Todo la información que se muestra en esta página es información que proviene de fuentes fiables:</p>
-            <p>- Organización Mundial de la Salud</p> 
-            <p>- Información del gobierno</p>
-            <p>- www.thefitmedstudent.com</p>
+            <li> Organización Mundial de la Salud</li> 
+            <li> Información del gobierno</li>
+            <li> www.thefitmedstudent.com</li>
         </div>
     </div>
 
