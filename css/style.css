@@ -18,29 +18,34 @@ html{
     --bg-panel: #EBEBEB;
     --color-headings:#333333;
     --color-text:#333333;
-
+    --barrita:#FE9A2E;
+    --boton: rgb(0, 0, 0);
 }
 html[data-theme='dark']{
     --bg: #333333;
     --bg-panel: #434343;
     --color-headings:#333333;
     --color-text:#B5B5B5;
+    --barrita:rgb(199, 103, 148);
+    --boton: rgb(255, 255, 255);
 }
 body{
     background-color: var(--bg);
     color: var(--color-text);
+
 }
 .boton{
     width:200px;
     height:50px;
     background:none;
     border:4px solid;
-    color:red;
+    color:var(--boton);
     font-weight: 600;
     text-transform: uppercase;
     cursor: pointer;
     font-size:14px;
     position: relative;
+    
 }
 .boton::before,.boton::after{
     content: "";
@@ -109,11 +114,14 @@ footer{
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
-.bordeIzquierda{
-    border-left: solid 2px var(--negro);
+.bordeIzquierdaGordo{
+    border-left: solid 7px var(--barrita);
     margin-right: 1rem;
 }
-/*Esto es el boton*/
+.bordeIzquierdaFino{
+    border-left: solid 2px var(--barrita);
+    margin-right: 1rem;
+}
 
 
 

@@ -6,7 +6,7 @@
       </div>
       <hr class="clearfix w-100 d-md-none pb-3">
       <div class="col-md-3 mb-md-0 mb-3">
-        <h5 class="text-uppercase">Redes</h5>
+        <h5 class="text-uppercase ">Redes</h5>
         <ul class="list-unstyled">
           <li>
             <a href="#!">www.instagram.com</a>
@@ -23,7 +23,7 @@
         </ul>
       </div>
       <div class="col-md-3 mb-md-0 mb-3">
-        <h5 class="text-uppercase">Políticas</h5>
+        <h5 class="text-uppercase ">Políticas</h5>
         <ul class="list-unstyled">
           <li>
             <a href="#!">Términos y condiciones</a>
@@ -34,7 +34,7 @@
         </ul>
       </div>
       <div class="col-md-3 mb-md-0 mb-3">
-        <h5 class="text-uppercase">Información</h5>
+        <h5 class="text-uppercase ">Información</h5>
         <ul class="list-unstyled">
           <li>
             <a href="#!">¿Qué es el covid-19?</a>
