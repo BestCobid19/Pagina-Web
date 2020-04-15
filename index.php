@@ -19,7 +19,10 @@ include('header.php');
         <div class="texto">
 
             <h1><span class="bordeIzquierdaFino"></span>Nuestras fuentes</h1>
-            <p>Todo la inforamción que se muestra en esta paguina es información que viene de fuentes fiables; Organización Mundial de la Salud, Información del gobierno...  </p>
+            <p>Todo la información que se muestra en esta página es información que proviene de fuentes fiables:</p>
+            <p>- Organización Mundial de la Salud</p> 
+            <p>- Información del gobierno</p>
+            <p>- www.thefitmedstudent.com</p>
         </div>
     </div>
 
