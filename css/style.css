@@ -30,6 +30,41 @@ body{
     background-color: var(--bg);
     color: var(--color-text);
 }
+.boton{
+    width:200px;
+    height:50px;
+    background:none;
+    border:4px solid;
+    color:red;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size:14px;
+    position: relative;
+}
+.boton::before,.boton::after{
+    content: "";
+    position: absolute;
+    width:14px;
+    height: 4px;
+    background:var(--bg);
+    transform:skewX(50deg);
+    transition: .4s linear;
+}
+.boton::before{
+    top: -4px;
+    left:10%;
+}
+.boton::after{
+    bottom:-4px;
+    right: 10%;
+}
+.boton:hover::before{
+    left:80%;  
+}
+.boton:hover::after{
+    right:80%;  
+}
 footer{
     border: solid 0.2px var(--negro);
     margin: 10px 10px;
@@ -55,9 +90,11 @@ footer{
     padding: 1.5rem;
 }
 .nav-link:hover {
-    color: palevioletred;
+    color: var(--color-text);
     border-bottom: solid var(--blanco);
+    
 }
+
 .jumbotron1{
     
     padding-bottom: 1rem;
