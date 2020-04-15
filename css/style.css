@@ -26,7 +26,7 @@ html[data-theme='dark']{
     --bg-panel: #434343;
     --color-headings:#333333;
     --color-text:rgb(255, 255, 255);
-    --barrita:rgb(199, 103, 148);
+    --barrita:#F7819F;
     --boton: rgb(255, 255, 255);
 }
 body{
