@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Coronao</title>
+    <script src="https://kit.fontawesome.com/1c44cf5aa1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
@@ -19,19 +20,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="nav">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">¿Qué es el COVID-19?</a>
+                    <a class="nav-link active" href="#"><i class="fas fa-info"></i> ¿Qué es el COVID-19?</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Síntomas</a>
+                    <a class="nav-link active" href="#"><i class="fas fa-viruses"></i> Síntomas</i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">¿Qué hacer si estás enfermo?</a>
+                    <a class="nav-link active" href="#"><i class="fas fa-question"></i> ¿Qué hacer si estás enfermo?</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Evite enfermarse</a>
+                    <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true"><i class="fas fa-shield-virus"></i> Evite el contagio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Lo que usted puede hacer</a>
+                    <a class="nav-link active" href="https://coronavirus.app/map" target="_blank"><i class="far fa-hand-paper"></i> Coronavirus App</a>
                 </li>
             </ul>
             <button type="button" id="switch" class="boton ml-auto">Cambiar Tema</button>
