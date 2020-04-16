@@ -415,7 +415,6 @@ shops:
         slot: 53
   food:
     name: "&2&lFood (page %page%)"
-    size: 36
     buttons:
       goBack:
         slot: 31
