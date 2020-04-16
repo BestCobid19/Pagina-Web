@@ -1350,7 +1350,8 @@ shops:
       1:
         type: item
         item:
-          material: 160:10
+          material: 160
+          damage: 10
           quantity: 1
         slot: 0
       2:
@@ -1405,13 +1406,15 @@ shops:
       9:
         type: item
         item:
-          material: 160:10
+          material: 160
+          damage: 10
           quantity: 1
         slot: 8
       10:
         type: item
         item:
-          material: 160:15
+          material: 160
+          damage: 15
           quantity: 1
         slot: 9
       11:
@@ -1466,19 +1469,22 @@ shops:
       18:
         type: item
         item:
-          material: 160:15
+          material: 160
+          damage: 15
           quantity: 1
         slot: 17
       19:
         type: item
         item:
-          material: 160:10
+          material: 160
+          damage: 10
           quantity: 1
         slot: 18
       20:
         type: item
         item:
-          material: 44:3
+          material: 44
+          damage: 3
           quantity: 16
         buyPrice: 50
         slot: 19
@@ -1499,7 +1505,8 @@ shops:
       23:
         type: item
         item:
-          material: 19:0
+          material: 19
+          damage: 0
           quantity: 16
         buyPrice: 20
         slot: 22
@@ -1527,13 +1534,15 @@ shops:
       27:
         type: item
         item:
-          material: 160:10
+          material: 160
+          damage: 10
           quantity: 1
         slot: 26
       28:
         type: item
         item:
-          material: 160:15
+          material: 160
+          damage: 15
           quantity: 1
         slot: 31
       29:
