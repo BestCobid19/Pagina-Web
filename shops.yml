@@ -415,9 +415,10 @@ shops:
         slot: 53
   food:
     name: "&2&lFood (page %page%)"
+    size: 45
     buttons:
       goBack:
-        slot: 31
+        slot: 41
       previousPage:
         slot: 30
       nextPage:
@@ -551,14 +552,14 @@ shops:
         item:
           material: 160
           quantity: 1
-          damage: 10
+          damage: 15
         slot: 17
       19:
         type: item
         item:
           material: 160
           quantity: 1
-          damage: 15
+          damage: 10
         slot: 18
       20:
         type: item
@@ -614,7 +615,7 @@ shops:
         item:
           material: 160
           quantity: 1
-          damage: 15
+          damage: 10
         slot: 26
       28:
         type: item
