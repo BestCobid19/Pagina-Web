@@ -424,7 +424,7 @@ shops:
       nextPage:
         slot: 32
     items:
-            1:
+      1:
         type: item
         item:
           material: 160
