@@ -1266,49 +1266,275 @@ shops:
       18:
         type: item
         item:
+          material: 160
+          damage: 15
+          quantity: 1
+        slot: 17
+      19:
+        type: item
+        item:
+          material: 160
+          damage: 10
+          quantity: 1
+        slot: 18
+      20:
+        type: item
+        item:
           material: 299
           quantity: 1
         buyPrice: 1000
         unstack: true
-        slot: 17
-      19:
+        slot: 19
+      21:
         type: item
         item:
           material: 315
           quantity: 1
         buyPrice: 1000
         unstack: true
-        slot: 18
-      20:
+        slot: 20
+      22:
         type: item
         item:
-          material: DIAMOND_SWORD
+          material: 303
+          quantity: 1
+        buyPrice: 1000
+        unstack: true
+        slot: 21
+      23:
+        type: item
+        item:
+          material: 307
+          quantity: 1
+        buyPrice: 1000
+        unstack: true
+        slot: 22
+      24:
+        type: item
+        item:
+          material: 311
+          quantity: 1
+        buyPrice: 1000
+        unstack: true
+        slot: 23
+      25:
+        type: item
+        item:
+          material: 276
+          quantity: 1
+        buyPrice: 1000
+        unstack: true
+        slot: 24
+      26:
+        type: item
+        item:
+          material: 268
+          quantity: 1
+        buyPrice: 1000
+        unstack: true
+        slot: 25
+      27:
+        type: item
+        item:
+          material: 160
+          damage: 10
+          quantity: 1
+        slot: 26
+      28:
+        type: item
+        item:
+          material: 160
+          damage: 15
+          quantity: 1
+        slot: 27
+      29:
+        type: item
+        item:
+          material: 300
+          quantity: 1
+        buyPrice: 1000
+        unstack: true
+        slot: 28
+      30:
+        type: item
+        item:
+          material: 316
+          quantity: 1
+        buyPrice: 1000
+        unstack: true
+        slot: 29
+      31:
+        type: item
+        item:
+          material: 304
+          quantity: 1
+        buyPrice: 1000
+        unstack: true
+        slot: 30
+      32:
+        type: item
+        item:
+          material: 308
+          quantity: 1
+        buyPrice: 1000
+        unstack: true
+        slot: 31
+      33:
+        type: item
+        item:
+          material: 312
+          quantity: 1
+        buyPrice: 1000
+        unstack: true
+        slot: 32
+      34:
+        type: item
+        item:
+          material: 267
           quantity: 1
         buyPrice: 1000
         unstack: true
         slot: 33
-      21:
+      35:
         type: item
         item:
-          material: BOW
+          material: 261
           quantity: 1
-        buyPrice: 100
+        buyPrice: 1000
         unstack: true
-        slot: 7
-      22:
+        slot: 34
+      36:
         type: item
         item:
-          material: ARROW
-          quantity: 10
-        buyPrice: 50
-        slot: 16
-      23:
+          material: 160
+          damage: 15
+          quantity: 1
+        slot: 35
+      37:
         type: item
         item:
-          material: SNOW_BALL
-          quantity: 16
-        buyPrice: 30
-        slot: 25
+          material: 160
+          damage: 15
+          quantity: 1
+        slot: 36
+      38:
+        type: item
+        item:
+          material: 301
+          quantity: 1
+        buyPrice: 1000
+        unstack: true
+        slot: 37
+      39:
+        type: item
+        item:
+          material: 317
+          quantity: 1
+        buyPrice: 1000
+        unstack: true
+        slot: 38
+      40:
+        type: item
+        item:
+          material: 305
+          quantity: 1
+        buyPrice: 1000
+        unstack: true
+        slot: 39
+      41:
+        type: item
+        item:
+          material: 309
+          quantity: 1
+        buyPrice: 1000
+        unstack: true
+        slot: 40
+      42:
+        type: item
+        item:
+          material: 313
+          quantity: 1
+        buyPrice: 1000
+        unstack: true
+        slot: 41
+      43:
+        type: item
+        item:
+          material: 283
+          quantity: 1
+        buyPrice: 1000
+        unstack: true
+        slot: 42
+      44:
+        type: item
+        item:
+          material: 262
+          quantity: 1
+        buyPrice: 1000
+        slot: 43
+      45:
+        type: item
+        item:
+          material: 160
+          damage: 10
+          quantity: 1
+        slot: 44
+      46:
+        type: item
+        item:
+          material: 160
+          damage: 15
+          quantity: 1
+        slot: 45
+      47:
+        type: item
+        item:
+          material: 160
+          damage: 10
+          quantity: 1
+        slot: 46
+      48:
+        type: item
+        item:
+          material: 160
+          damage: 15
+          quantity: 1
+        slot: 47
+      49:
+        type: item
+        item:
+          material: 160
+          damage: 10
+          quantity: 1
+        slot: 48
+      50:
+        type: item
+        item:
+          material: 160
+          damage: 10
+          quantity: 1
+        slot: 50
+      51:
+        type: item
+        item:
+          material: 160
+          damage: 15
+          quantity: 1
+        slot: 51
+      52:
+        type: item
+        item:
+          material: 160
+          damage: 10
+          quantity: 1
+        slot: 52
+      53:
+        type: item
+        item:
+          material: 160
+          damage: 15
+          quantity: 1
+        slot: 53
   farming:
     name: "&5&lFarming (page %page%)"
     size: 36
