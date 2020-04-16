@@ -1705,14 +1705,14 @@ shops:
         item:
           material: 65
           quantity: 16
-          buyPrice: 100
+        buyPrice: 1000
         slot: 29
       31:
         type: item
         item:
           material: 323
           quantity: 16
-          buyPrice: 100
+        buyPrice: 100
         slot: 30
       32:
         type: item
@@ -1720,28 +1720,28 @@ shops:
           material: 19
           damage: 0
           quantity: 32
-          buyPrice: 100
+        buyPrice: 100
         slot: 31
       33:
         type: item
         item:
           material: 287
           quantity: 32
-          buyPrice: 100
+        buyPrice: 100
         slot: 32
       34:
         type: item
         item:
           material: 30
           quantity: 16
-          buyPrice: 100
+        buyPrice: 100
         slot: 33
       35:
         type: item
         item:
           material: 324
           quantity: 16
-          buyPrice: 100
+        buyPrice: 100
         slot: 34
       36:
         type: item
@@ -1762,49 +1762,49 @@ shops:
         item:
           material: 143
           quantity: 16
-          buyPrice: 300
+        buyPrice: 300
         slot: 37
       39:
         type: item
         item:
           material: 404
           quantity: 32
-          buyPrice: 300
+        buyPrice: 300
         slot: 38
       40:
         type: item
         item:
           material: 356
           quantity: 32
-          buyPrice: 300
+        buyPrice: 300
         slot: 39
       41:
         type: item
         item:
           material: 330
           quantity: 16
-          buyPrice: 300
+        buyPrice: 300
         slot: 40
       42:
         type: item
         item:
           material: 331
           quantity: 64
-          buyPrice: 300
+        buyPrice: 300
         slot: 41
       43:
         type: item
         item:
           material: 77
           quantity: 16
-          buyPrice: 300
+        buyPrice: 300
         slot: 42
       44:
         type: item
         item:
           material: 23
           quantity: 64
-          buyPrice: 300
+        buyPrice: 300
         slot: 43
       45:
         type: item
