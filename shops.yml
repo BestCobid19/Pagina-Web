@@ -1,4 +1,6 @@
-name: "&9&lBlocks (page %page%)"
+shops:
+  blocks:
+    name: "&9&lBlocks (page %page%)"
     items:
       1:
         type: item
