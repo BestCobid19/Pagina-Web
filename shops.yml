@@ -89,9 +89,9 @@ shops:
         sellPrice: 10
         slot: 11
       13:
-        type: COBBLESTONE
+        type: item
         item:
-          material: LOG
+          material: COBBLESTONE
           quantity: 64
         buyPrice: 100
         sellPrice: 10
