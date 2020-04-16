@@ -144,8 +144,6 @@ shops:
           material: 160
           quantity: 1
           damage: 10
-        buyPrice: 100
-        sellPrice: 10
         slot: 18
       20:
         type: item
@@ -214,8 +212,6 @@ shops:
           material: 160
           quantity: 1
           damage: 10
-        buyPrice: 70
-        sellPrice: 7
         slot: 26
       28:
         type: item
@@ -223,8 +219,6 @@ shops:
           material: 160
           quantity: 1
           damage: 15
-        buyPrice: 30
-        sellPrice: 3
         slot: 27
       29:
         type: item
@@ -290,8 +284,6 @@ shops:
           material: 160
           quantity: 1
           damage: 15
-        buyPrice: 100
-        sellPrice: 20
         slot: 35
       37:
         type: item
@@ -299,8 +291,6 @@ shops:
           material: 160
           quantity: 1
           damage: 10
-        buyPrice: 100
-        sellPrice: 20
         slot: 36
       38:
         type: item
@@ -366,8 +356,6 @@ shops:
           material: 160
           quantity: 1
           damage: 10
-        buyPrice: 100
-        sellPrice: 20
         slot: 44
       46:
         type: item
@@ -375,8 +363,6 @@ shops:
           material: 160
           quantity: 1
           damage: 15
-        buyPrice: 100
-        sellPrice: 20
         slot: 45
       47:
         type: item
@@ -384,8 +370,6 @@ shops:
           material: 160
           quantity: 1
           damage: 10
-        buyPrice: 100
-        sellPrice: 20
         slot: 46
       48:
         type: item
@@ -393,17 +377,13 @@ shops:
           material: 160
           quantity: 1
           damage: 15
-        buyPrice: 100
-        sellPrice: 20
         slot: 47
       49:
         type: item
         item:
           material: 160
           quantity: 1
-          damage: 15
-        buyPrice: 100
-        sellPrice: 20
+          damage: 10
         slot: 48
       51:
         type: item
@@ -411,8 +391,6 @@ shops:
           material: 160
           quantity: 1
           damage: 10
-        buyPrice: 100
-        sellPrice: 20
         slot: 50
       52:
         type: item
@@ -420,8 +398,6 @@ shops:
           material: 160
           quantity: 1
           damage: 15
-        buyPrice: 100
-        sellPrice: 20
         slot: 51
       53:
         type: item
@@ -429,12 +405,13 @@ shops:
           material: 160
           quantity: 1
           damage: 10
-        buyPrice: 100
-        sellPrice: 20
         slot: 52
       54:
-        type: special
-        special: BALANCE
+        type: item
+        item:
+          material: 160
+          quantity: 1
+          damage: 15
         slot: 53
   food:
     name: "&2&lFood (page %page%)"
@@ -447,88 +424,88 @@ shops:
       nextPage:
         slot: 32
     items:
-      1:
+            1:
         type: item
         item:
-          material: MELON
-          quantity: 10
-        buyPrice: 30
+          material: 160
+          quantity: 1
+          damage: 10
         slot: 0
       2:
         type: item
         item:
-          material: APPLE
+          material: 160
           quantity: 1
-        buyPrice: 20
+          damage: 15
         slot: 1
       3:
         type: item
         item:
-          material: GOLDEN_APPLE
+          material: 160
           quantity: 1
-        buyPrice: 100
+          damage: 10
         slot: 2
       4:
         type: item
         item:
-          material: GOLDEN_APPLE
+          material: 160
           quantity: 1
-          damage: 1
-        buyPrice: 1000
+          damage: 15
         slot: 3
       5:
         type: item
         item:
-          material: CARROT_ITEM
-          quantity: 10
-        buyPrice: 30
+          material: 160
+          quantity: 1
+          damage: 10
         slot: 4
       6:
         type: item
         item:
-          material: PUMPKIN_PIE
+          material: 160
           quantity: 1
-        buyPrice: 20
+          damage: 15
         slot: 5
       7:
         type: item
         item:
-          material: BREAD
+          material: 160
           quantity: 1
-        buyPrice: 25
+          damage: 10
         slot: 6
       8:
         type: item
         item:
-          material: COOKED_CHICKEN
+          material: 160
           quantity: 1
-        buyPrice: 25
+          damage: 15
         slot: 7
       9:
         type: item
         item:
-          material: BAKED_POTATO
-          quantity: 10
-        buyPrice: 30
+          material: 160
+          quantity: 1
+          damage: 10
         slot: 8
       10:
         type: item
         item:
-          material: MUSHROOM_SOUP
+          material: 160
           quantity: 1
-        buyPrice: 20
+          damage: 15
         slot: 9
       11:
         type: item
         item:
-          material: COOKED_FISH
+          material: 322
           quantity: 1
+          damage: 0
         buyPrice: 20
         slot: 10
       12:
         type: item
         item:
-          material: COOKED_FISH
+          material: 322
           quantity: 1
           damage: 1
         buyPrice: 25
@@ -536,52 +513,229 @@ shops:
       13:
         type: item
         item:
-          material: COOKED_RABBIT
+          material: 391
           quantity: 1
         buyPrice: 20
         slot: 12
       14:
         type: item
         item:
-          material: RABBIT_STEW
+          material: 350
           quantity: 1
+          damage: 1
         buyPrice: 40
         slot: 13
       15:
         type: item
         item:
-          material: GRILLED_PORK
+          material: 350
           quantity: 1
+          damage: 0
         buyPrice: 30
         slot: 14
       16:
         type: item
         item:
-          material: COOKED_BEEF
+          material: 297
           quantity: 1
         buyPrice: 30
         slot: 15
       17:
         type: item
         item:
-          material: COOKED_MUTTON
+          material: 366
           quantity: 1
         buyPrice: 25
         slot: 16
       18:
         type: item
         item:
-          material: COOKIE
-          quantity: 10
-        buyPrice: 30
+          material: 160
+          quantity: 1
+          damage: 10
         slot: 17
       19:
         type: item
         item:
-          material: CAKE
+          material: 160
           quantity: 1
-        buyPrice: 50
+          damage: 15
         slot: 18
+      20:
+        type: item
+        item:
+          material: 260
+          quantity: 64
+        buyPrice: 25
+        slot: 19
+      21:
+        type: item
+        item:
+          material: 413
+          quantity: 64
+        buyPrice: 25
+        slot: 20
+      22:
+        type: item
+        item:
+          material: 282
+          quantity: 64
+        buyPrice: 25
+        slot: 21
+      23:
+        type: item
+        item:
+          material: 320
+          quantity: 64
+        buyPrice: 25
+        slot: 22
+      24:
+        type: item
+        item:
+          material: 364
+          quantity: 64
+        buyPrice: 25
+        slot: 23
+      25:
+        type: item
+        item:
+          material: 424
+          quantity: 64
+        buyPrice: 25
+        slot: 24
+      26:
+        type: item
+        item:
+          material: 412
+          quantity: 64
+        buyPrice: 25
+        slot: 25
+      27:
+        type: item
+        item:
+          material: 160
+          quantity: 1
+          damage: 15
+        slot: 26
+      28:
+        type: item
+        item:
+          material: 160
+          quantity: 1
+          damage: 10
+        slot: 27
+      29:
+        type: item
+        item:
+          material: 160
+          quantity: 1
+        damage: 15
+        slot: 28
+      30:
+        type: item
+        item:
+          material: 360
+          quantity: 64
+        buyPrice: 25
+        slot: 29
+      31:
+        type: item
+        item:
+          material: 400
+          quantity: 64
+        buyPrice: 25
+        slot: 30
+      32:
+        type: item
+        item:
+          material: 354
+          quantity: 64
+        buyPrice: 25
+        slot: 31
+      33:
+        type: item
+        item:
+          material: 357
+          quantity: 64
+        buyPrice: 25
+        slot: 32
+      34:
+        type: item
+        item:
+          material: 393
+          quantity: 64
+        buyPrice: 25
+        slot: 33
+      35:
+        type: item
+        item:
+          material: 160
+          quantity: 1
+          damage: 15
+        slot: 34
+      36:
+        type: item
+        item:
+          material: 160
+          quantity: 1
+          damage: 10
+        slot: 35
+      37:
+        type: item
+        item:
+          material: 160
+          quantity: 1
+          damage: 15
+        slot: 36
+      38:
+        type: item
+        item:
+          material: 160
+          quantity: 1
+          damage: 10
+        slot: 37
+      39:
+        type: item
+        item:
+          material: 160
+          quantity: 1
+          damage: 15
+        slot: 38
+      40:
+        type: item
+        item:
+          material: 160
+          quantity: 1
+          damage: 10
+        slot: 39
+      42:
+        type: item
+        item:
+          material: 160
+          quantity: 1
+          damage: 10
+        slot: 41
+      43:
+        type: item
+        item:
+          material: 160
+          quantity: 1
+          damage: 15
+        slot: 42
+      44:
+        type: item
+        item:
+          material: 160
+          quantity: 1
+          damage: 10
+        slot: 43
+      45:
+        type: item
+        item:
+          material: 160
+          quantity: 1
+          damage: 15
+        slot: 44
   ores:
     name: "&3&lOres (page %page%)"
     size: 27
