@@ -5,56 +5,77 @@ shops:
       1:
         type: item
         item:
-          material: PURPLE_STAINED_GLASS_PANE
-          quantity: 1
+          material: GRASS
+          quantity: 64
+        buyPrice: 50
+        sellPrice: 5
         slot: 0
       2:
         type: item
         item:
-          material: BLACK_STAINED_GLASS_PANE
-          quantity: 1
+          material: DIRT
+          quantity: 64
+        buyPrice: 30
+        sellPrice: 3
         slot: 1
       3:
         type: item
         item:
-          material: PURPLE_STAINED_GLASS_PANE
-          quantity: 1
+          material: GRAVEL
+          quantity: 64
+        buyPrice: 50
+        sellPrice: 5
         slot: 2
       4:
         type: item
         item:
-          material: BLACK_STAINED_GLASS_PANE
-          quantity: 1
+          material: COBBLESTONE
+          quantity: 64
+        buyPrice: 30
+        sellPrice: 3
         slot: 3
       5:
         type: item
         item:
-          material: PURPLE_STAINED_GLASS_PANE
-          quantity: 1
+          material: MOSSY_COBBLESTONE
+          quantity: 64
+        buyPrice: 50
+        sellPrice: 5
         slot: 4
       6:
         type: item
         item:
-          material: BLACK_STAINED_GLASS_PANE
-          quantity: 1
+          material: STONE
+          quantity: 64
+        buyPrice: 50
+        sellPrice: 5
         slot: 5
       7:
         type: item
         item:
-          material: PURPLE_STAINED_GLASS_PANE
-          quantity: 1
+          material: STONE
+          quantity: 64
+          damage: 1
+        buyPrice: 30
+        sellPrice: 8
         slot: 6
       8:
         type: item
         item:
-          material: BLACK_STAINED_GLASS_PANE
-          quantity: 1
+          material: STONE
+          quantity: 64
+          damage: 3
+        buyPrice: 30
+        sellPrice: 3
         slot: 7
       9:
         type: item
         item:
-          material: PURPLE_STAINED_GLASS_PANE
-          quantity: 1
+          material: STONE
+          quantity: 64
+          damage: 5
+        buyPrice: 30
+        sellPrice: 3
         slot: 8
       10:
         type: item
@@ -1405,37 +1426,36 @@ shops:
       10:
         type: item
         item:
-          material: REDSTONE
-          quantity: 16
-        buyPrice: 1600
+          material: 160:15
+          quantity: 1
         slot: 9
       11:
         type: item
         item:
-          material: 404
+          material: 107
           quantity: 16
         buyPrice: 200
         slot: 10
       12:
         type: item
         item:
-          material: 356
+          material: 123
           quantity: 16
         buyPrice: 200
         slot: 11
       13:
         type: item
         item:
-          material: 76
+          material: 96
           quantity: 16
         buyPrice: 100
         slot: 12
       14:
         type: item
         item:
-          material: HOPPER
-          quantity: 1
-        buyPrice: 50000
+          material: 147
+          quantity: 16
+        buyPrice: 1000
         slot: 13
       15:
         type: item
