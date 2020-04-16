@@ -935,7 +935,7 @@ shops:
         buyPrice: 150
         unstack: true
         slot: 14
-  Armor:
+  armor:
     name: "&4&lPVP (page %page%)"
     items:
       1:
