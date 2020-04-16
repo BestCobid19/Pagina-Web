@@ -1415,7 +1415,7 @@ shops:
         type: item
         item:
           material: 160
-          damage: 15
+          damage: 10
           quantity: 1
         slot: 36
       38:
