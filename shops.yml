@@ -830,7 +830,7 @@ shops:
           material: 160
           quantity: 1
           damage: 10
-        slot: 9
+        slot: 11
       13:
         type: item
         item:
@@ -895,7 +895,7 @@ shops:
           material: 160
           quantity: 1
           damage: 15
-        slot: 19
+        slot: 20
       22:
         type: item
         item:
@@ -965,7 +965,7 @@ shops:
           material: 160
           quantity: 1
           damage: 15
-        slot: 29
+        slot: 30
       32:
         type: item
         item:
