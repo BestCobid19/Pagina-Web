@@ -936,7 +936,7 @@ shops:
         unstack: true
         slot: 14
   armor:
-    name: "&4&lArmor (page %page%)"
+    name: "&4&lPVP (page %page%)"
     items:
       1:
         type: item
@@ -1067,19 +1067,19 @@ shops:
       18:
         type: item
         item:
-          material: GOLD_SWORD
+          material: 299
           quantity: 1
-        buyPrice: 50
+        buyPrice: 1000
         unstack: true
-        slot: 15
+        slot: 17
       19:
         type: item
         item:
-          material: IRON_SWORD
+          material: 315
           quantity: 1
-        buyPrice: 100
+        buyPrice: 1000
         unstack: true
-        slot: 24
+        slot: 18
       20:
         type: item
         item:
