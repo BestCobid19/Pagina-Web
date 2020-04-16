@@ -1550,7 +1550,7 @@ shops:
         item:
           material: 12
           quantity: 1
-          damage: 50
+          damage: 0
         buyPrice: 50
         slot: 30
       30:
