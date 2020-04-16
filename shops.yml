@@ -1437,114 +1437,104 @@ name: "&9&lBlocks (page %page%)"
       15:
         type: item
         item:
-          material: 77
+          material: 148
           quantity: 16
         buyPrice: 50
         slot: 14
       16:
         type: item
         item:
-          material: TRIPWIRE_HOOK
+          material: 152
           quantity: 16
         buyPrice: 50
         slot: 15
       17:
         type: item
         item:
-          material: STRING
-          quantity: 32
+          material: 167
+          quantity: 16
         buyPrice: 20
         slot: 16
       18:
         type: item
         item:
-          material: WEB
-          quantity: 16
-        buyPrice: 20
+          material: 160:15
+          quantity: 1
         slot: 17
       19:
         type: item
         item:
-          material: FENCE_GATE
-          quantity: 8
-        buyPrice: 50
+          material: 160:10
+          quantity: 1
         slot: 18
       20:
         type: item
         item:
-          material: 324
-          quantity: 8
+          material: 44:3
+          quantity: 16
         buyPrice: 50
         slot: 19
       21:
         type: item
         item:
-          material: 72
-          quantity: 8
+          material: 65
+          quantity: 16
         buyPrice: 20
         slot: 20
       22:
         type: item
         item:
-          material: 65
+          material: 323
           quantity: 16
         buyPrice: 20
         slot: 21
       23:
         type: item
         item:
-          material: 66
+          material: 19:0
           quantity: 16
         buyPrice: 20
         slot: 22
       24:
         type: item
         item:
-          material: 96
-          quantity: 8
+          material: 287
+          quantity: 32
         buyPrice: 50
         slot: 23
       25:
         type: item
         item:
-          material: 70
-          quantity: 8
+          material: 30
+          quantity: 16
         buyPrice: 50
         slot: 24
       26:
         type: item
         item:
-          material: 69
-          quantity: 4
+          material: 324
+          quantity: 16
         buyPrice: 20
         slot: 25
       27:
         type: item
         item:
-          material: 330
-          quantity: 8
-        buyPrice: 20
+          material: 160:10
+          quantity: 1
         slot: 26
       28:
         type: item
         item:
-          material: 259
+          material: 160:15
           quantity: 1
-          name: "&4&l** The Flint **"
-          enchantments:
-            - DURABILITY:10
-        buyPrice: 500
         slot: 31
       29:
         type: item
         item:
-          material: 383
+          material: 12
           quantity: 1
           damage: 50
-          name: "&2&l** Creeper Egg **"
-          enchantments:
-            - FORTUNE:5
-        buyPrice: 50000
+        buyPrice: 50
         slot: 30
       30:
         type: command
