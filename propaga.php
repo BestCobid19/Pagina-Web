@@ -4,21 +4,55 @@ include('header.php');
 
 <div class="jumbotron jumbotron-fluid jumbotron1">
     <div class="container">
-        <h1 class="display-4 bordeBot">Coronavirus (COVID-19)</h1>
-        
-        
+        <h1 class="display-4 bordeBot">Propagación del (COVID-19)</h1>
+
+
     </div>
 </div>
 <div class="container borde">
-        <div class="texto">
-            <h1><span class="bordeIzquierdaFino"></span>¿Cómo se propaga la COVID-19?</h1>
-            <p>
-            Una persona puede contraer la COVID-19 por contacto con otra que esté infectada por el virus. La enfermedad puede propagarse de persona a persona a través de las gotículas procedentes de la nariz o la boca que salen despedidas cuando una persona infectada tose o exhala. Estas gotículas caen sobre los objetos y superficies que rodean a la persona, de modo que otras personas pueden contraer la COVID-19 si tocan estos objetos o superficies y luego se tocan los ojos, la nariz o la boca. También pueden contagiarse si inhalan las gotículas que haya esparcido una persona con COVID-19 al toser o exhalar. Por eso es importante mantenerse a más de 1 metro (3 pies) de distancia de una persona que se encuentre enferma.
+    <div class="texto">
+        <h2 class="texto"><span class="bordeIzquierdaFino"></span>¿Cómo se propaga la COVID-19?</h2>
+        <div class="row justify-content-around">
+            <div class="col-2">
+                <img src="img/toseaotra.png" alt="" srcset="">
+            </div>
 
-La OMS está estudiando las investigaciones en curso sobre las formas de propagación de la COVID-19 y seguirá informando sobre los resultados actualizados.
-            </p>
+            <div class="col-8">
+                <ul>
+                    <li>En estos momentos no existe una vacuna para prevenir la enfermedad del coronavirus 2019 (COVID-19).​​​​​​​</li>
+                    <li><strong>La mejor manera de prevenir la enfermedad es evitar la exposición a este virus.</strong> </li>
+                    <li>Se piensa que el virus se propaga principalmente de persona a persona.
+                        <div class="marginIzquierda">
+                            <ul>
+                                <li>Entre personas que están en contacto cercano (a una distancia de hasta aproximadamente 6 pies).</li>
+                                <li>A través de gotitas respiratorias que se producen cuando una persona infectada tose, estornuda o habla.</li>
+                                <li>Estas gotitas pueden terminar en la boca o en la nariz de quienes se encuentran cerca o posiblemente ser inhaladas y llegar a los pulmones.</li>
+                                <li>Algunos estudios recientes sugieren que el COVID-19 puede propagarse a través de personas que no presentan síntomas.</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
+
+        <h2 class="texto"><span class="bordeIzquierdaFino"></span>Propagación de persona a persona</h2>
+        <p>Se piensa que el virus se propaga principalmente de persona a persona. </p>
+        <div class="marginIzquierda">
+            <ul>
+                <li>Entre personas que están en contacto cercano (a una distancia de hasta aproximadamente 6 pies).</li>
+                <li>A través de gotitas respiratorias que se producen cuando una persona infectada tose, estornuda o habla.</li>
+                <li>Estas gotitas pueden terminar en la boca o en la nariz de quienes se encuentran cerca o posiblemente ser inhaladas y llegar a los pulmones.</li>
+                <li>Algunos estudios recientes sugieren que el COVID-19 puede propagarse a través de personas que no presentan síntomas.</li>
+            </ul>
+        </div>
+
+        <h2 class="texto"><span class="bordeIzquierdaFino"></span>Propagación a través del contacto con superficies u objetos contaminados</h2>
+        <p>Podría ser posible que una persona contraiga el COVID-19 al tocar una superficie u objeto que tenga el virus y luego se toque la boca, la nariz o posiblemente los ojos. No se cree que esta sea la principal forma en que se propaga el virus, pero aún estamos aprendiendo acerca del virus.</p>
+
+        <h2 class="texto"><span class="bordeIzquierdaFino"></span>¿Con qué facilidad se propaga el virus?</h2>
+        <p> <strong>El virus que causa el COVID-19 se propaga muy fácilmente y de manera continua entre las personas.</strong>  La información sobre la pandemia en curso del COVID-19 sugiere que este virus se propaga de manera más eficiente que el virus de la influenza, pero no tan eficientemente como el del sarampión, que es un virus altamente contagioso.</p>
     </div>
+</div>
 <?php
 include('footer.php');
 ?>

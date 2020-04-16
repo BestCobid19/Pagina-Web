@@ -4,25 +4,103 @@ include('header.php');
 
 <div class="jumbotron jumbotron-fluid jumbotron1">
     <div class="container">
-        <h1 class="display-4 bordeBot">Coronavirus (COVID-19)</h1>
-        
-        
+        <h1 class="display-4 bordeBot">Evite el contagio (COVID-19)</h1>
+
+
     </div>
 </div>
 <div class="container borde">
-        <div class="texto">
-            <h1><span class="bordeIzquierdaFino"></span>Evite el contagio</h1>
-            <p>
-            <li>Lávese las manos a fondo y con frecuencia usando un desinfectante a base de alcohol o con agua y jabón.</li>
-            <li>Mantenga una distancia mínima de 1 metro (3 pies) entre usted y cualquier persona que tosa o estornude.</li>
-            <li>Evite tocarse los ojos, la nariz y la boca.</li>
-            <li>Tanto usted como las personas que les rodean deben asegurarse de mantener una buena higiene de las vías respiratorias. Eso significa cubrirse la boca y la nariz con el codo doblado o con un pañuelo de papel al toser o estornudar. El pañuelo usado debe desecharse de inmediato.</li>
-            <li>Permanezca en casa si no se encuentra bien. Si tiene fiebre, tos y dificultad para respirar, busque atención médica y llame con antelación. Siga las instrucciones de las autoridades sanitarias locales.</li>
-            <li>Manténgase informado sobre las últimas novedades en relación con la COVID-19. Siga los consejos de su dispensador de atención de salud, de las autoridades sanitarias pertinentes a nivel nacional y local o de su empleador sobre la forma de protegerse a sí mismo y a los demás ante la COVID-19.</li>
-            <li>Consulte las noticias más recientes sobre las zonas de mayor peligro (es decir, las ciudades y lugares donde la enfermedad se está propagando más extensamente). Si le es posible, evite desplazarse a estas zonas, sobre todo si su edad es avanzada o tiene usted diabetes, cardiopatías o neumopatías.</li>
-            </p>
+    <div class="texto">
+        <h2 class="texto"><span class="bordeIzquierdaFino"></span>Consejos para evitar el contagio</h2>
+        <div class="row justify-content-around">
+            <div class="col-2">
+                <img src="img/limpiarmanos.png" alt="" srcset="">
+            </div>
+            <div class="col-8">
+                <h3>Limpiarse las manos con frecuencia</h3>
+                <ul>
+                    <li>Lávese las manos con frecuencia con agua y jabón por al menos 20 segundos, especialmente después de haber estado en un lugar público, o después de sonarse la nariz, toser o estornudar.</li>
+                    <li>Si no dispone de agua y jabón, <strong>use un desinfectante de manos que contenga al menos un 60 % de alcohol.</strong> Cubra todas las superficies de las manos y frótelas hasta que sienta que se secaron.</li>
+                    <li> <strong>Evite tocarse los ojos, la nariz y la boca</strong> sin haberse lavado las manos.</li>
+                </ul>
+            </div>
         </div>
+        <br><br>
+        <div class="row justify-content-around">
+            <div class="col-2">
+                <img src="img/personaCasa.png" alt="" srcset="">
+            </div>
+            <div class="col-8">
+                <h3>Evitar el contacto directo</h3>
+                <ul>
+                    <li>Evite el contacto cercano con personas que están enfermas</li>
+                    <li>Quédese en casa tanto como sea posible.</li>
+                    <li>Ponga distancia entre usted y las demás personas.
+                        <ul>
+                            <li>Recuerde que algunas personas que no tienen síntomas pueden propagar el virus.</li>
+                            <li>Mantener distancia con los demás es especialmente importante para las personas que tienen mayor riesgo de enfermarse gravemente.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <br><br>
+        <div class="row justify-content-around">
+
+            <div class="col-2">
+                <img src="img/mascara.png" alt="" srcset="">
+            </div>
+            <div class="col-8">
+                <h3>Cubrirse la boca y la nariz con una cubierta de tela para cara al estar rodeados de personas</h3>
+                <ul>
+                    <li>Usted podría propagar el COVID-19 incluso si no se siente enfermo.</li>
+                    <li>Todos deberían usar una cubierta de tela para cara cuando salen de sus casas, por ejemplo, para ir a la tienda de comestibles o para buscar otros productos necesarios.
+                    <div class="marginIzquierda">
+                        <ul>
+                            <li>Las cubiertas de tela para cara no se deberían usar en niños menores de 2 años ni en personas con problemas respiratorios o que estén inconscientes, incapacitadas o no sean capaces de quitárselas sin ayuda.</li>
+                        </ul> 
+                    </div>   
+                   
+                    </li>
+                    <li>La cubierta de tela para cara es para proteger a las demás personas en caso de que usted esté infectado.</li>
+                    <li>NO use una mascarilla destinada a los trabajadores de la salud.</li>
+                    <li>Siga manteniendo una distancia de aproximadamente 6 pies de las demás personas. La cubierta de tela para cara no reemplaza las medidas de distanciamiento social.</li>
+                </ul>
+            </div>
+        </div>
+        <br><br>
+        <div class="row justify-content-around">
+
+            <div class="col-2">
+                <img src="img/señoraCubriendoseBoca.png" alt="" srcset="">
+            </div>
+            <div class="col-8">
+                <h3>Cubrirse la boca al toser y estornudar</h3>
+                <ul>
+                    <li> <strong>Si se encuentra en un ámbito privado y no tiene puesta la cubierta de tela para la cara, recuerde siempre cubrirse la boca y la nariz</strong>  con un pañuelo desechable o con la parte interna del codo al toser o estornudar.</li>
+                    <li><strong>Tire los pañuelos desechables usados</strong>a la basura.</li>
+                    <li><strong>Lávese las manos</strong>inmediatamente con agua y jabón por al menos 20 segundos. Si no dispone de agua y jabón, límpiese las manos con un desinfectante de manos que contenga al menos un 60 % de alcohol.</li>
+                </ul>
+            </div>
+        </div>
+        <br><br>
+        <div class="row justify-content-around">
+
+            <div class="col-2">
+                <img src="img/limpiar.png" alt="" srcset="">
+            </div>
+            <div class="col-8">
+                <h3>Limpie y desinfecte</h3>
+                <ul>
+                    <li><strong>Limpie Y desinfecte diariamente</strong>las superficies que se tocan con frecuencia . Esto incluye las mesas, las manijas de las puertas, los interruptores de luz, los mesones, las barandas, los escritorios, los teléfonos, los teclados, los inodoros, los grifos, los lavamanos y los lavaplatos.</li>
+                    <li><strong>Si las superficies están sucias, límpielas.</strong>Lávelas con agua y detergente o jabón antes de desinfectarlas.</li>
+                    <li><strong>Luego, use un desinfectante de uso doméstico.</strong>La mayoría de los desinfectantes comunes para el hogar registrados en la EPAícono de sitio externo funcionarán.</li>
+                </ul>
+            </div>
+        </div>
+
     </div>
+</div>
 <?php
 include('footer.php');
 ?>
