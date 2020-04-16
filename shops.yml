@@ -418,7 +418,7 @@ shops:
     size: 45
     buttons:
       goBack:
-        slot: 41
+        slot: 40
       previousPage:
         slot: 30
       nextPage:
@@ -622,14 +622,14 @@ shops:
         item:
           material: 160
           quantity: 1
-          damage: 10
+          damage: 15
         slot: 27
       29:
         type: item
         item:
           material: 160
           quantity: 1
-        damage: 15
+        damage: 10
         slot: 28
       30:
         type: item
@@ -671,70 +671,70 @@ shops:
         item:
           material: 160
           quantity: 1
-          damage: 15
+          damage: 10
         slot: 34
       36:
         type: item
         item:
           material: 160
           quantity: 1
-          damage: 10
+          damage: 15
         slot: 35
       37:
         type: item
         item:
           material: 160
           quantity: 1
-          damage: 15
+          damage: 10
         slot: 36
       38:
         type: item
         item:
           material: 160
           quantity: 1
-          damage: 10
+          damage: 15
         slot: 37
       39:
         type: item
         item:
           material: 160
           quantity: 1
-          damage: 15
+          damage: 10
         slot: 38
       40:
         type: item
         item:
           material: 160
           quantity: 1
-          damage: 10
+          damage: 15
         slot: 39
       42:
         type: item
         item:
           material: 160
           quantity: 1
-          damage: 10
+          damage: 15
         slot: 41
       43:
         type: item
         item:
           material: 160
           quantity: 1
-          damage: 15
+          damage: 10
         slot: 42
       44:
         type: item
         item:
           material: 160
           quantity: 1
-          damage: 10
+          damage: 15
         slot: 43
       45:
         type: item
         item:
           material: 160
           quantity: 1
-          damage: 15
+          damage: 10
         slot: 44
   ores:
     name: "&3&lOres (page %page%)"
