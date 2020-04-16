@@ -827,9 +827,10 @@ shops:
       12:
         type: item
         item:
-          material: 160
-          quantity: 1
-          damage: 10
+          material: 263
+          quantity: 64
+          damage: 0
+        buyPrice: 50
         slot: 11
       13:
         type: item
