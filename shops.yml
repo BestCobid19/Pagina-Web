@@ -1367,51 +1367,51 @@ shops:
       2:
         type: item
         item:
-          material: 29
-          quantity: 64
-        buyPrice: 1500
+          material: 160
+          damage: 15
+          quantity: 1
         slot: 1
       3:
         type: item
         item:
-          material: 33
-          quantity: 64
-        buyPrice: 1500
+          material: 160
+          damage: 10
+          quantity: 1
         slot: 2
       4:
         type: item
         item:
-          material: 46
-          quantity: 64
-        buyPrice: 3000
+          material: 160
+          damage: 15
+          quantity: 1
         slot: 3
       5:
         type: item
         item:
-          material: 72
-          quantity: 16
-        buyPrice: 50
+          material: 160
+          damage: 10
+          quantity: 1
         slot: 4
       6:
         type: item
         item:
-          material: 70
-          quantity: 16
-        buyPrice: 50
+          material: 160
+          damage: 15
+          quantity: 1
         slot: 5
       7:
         type: item
         item:
-          material: 76
-          quantity: 64
-        buyPrice: 40
+          material: 160
+          damage: 10
+          quantity: 1
         slot: 6
       8:
         type: item
         item:
-          material: 69
-          quantity: 16
-        buyPrice: 50
+          material: 160
+          damage: 15
+          quantity: 1
         slot: 7
       9:
         type: item
@@ -1430,49 +1430,49 @@ shops:
       11:
         type: item
         item:
-          material: 107
-          quantity: 16
+          material: 29
+          quantity: 64
         buyPrice: 200
         slot: 10
       12:
         type: item
         item:
-          material: 123
-          quantity: 16
+          material: 33
+          quantity: 64
         buyPrice: 200
         slot: 11
       13:
         type: item
         item:
-          material: 96
-          quantity: 16
+          material: 46
+          quantity: 64
         buyPrice: 100
         slot: 12
       14:
         type: item
         item:
-          material: 147
+          material: 72
           quantity: 16
         buyPrice: 1000
         slot: 13
       15:
         type: item
         item:
-          material: 148
+          material: 70
           quantity: 16
         buyPrice: 50
         slot: 14
       16:
         type: item
         item:
-          material: 152
-          quantity: 16
+          material: 76
+          quantity: 32
         buyPrice: 50
         slot: 15
       17:
         type: item
         item:
-          material: 167
+          material: 69
           quantity: 16
         buyPrice: 20
         slot: 16
@@ -1493,51 +1493,49 @@ shops:
       20:
         type: item
         item:
-          material: 44
-          damage: 3
+          material: 107
           quantity: 16
         buyPrice: 50
         slot: 19
       21:
         type: item
         item:
-          material: 65
-          quantity: 16
+          material: 123
+          quantity: 32
         buyPrice: 20
         slot: 20
       22:
         type: item
         item:
-          material: 323
+          material: 96
           quantity: 16
         buyPrice: 20
         slot: 21
       23:
         type: item
         item:
-          material: 19
-          damage: 0
+          material: 147
           quantity: 16
         buyPrice: 20
         slot: 22
       24:
         type: item
         item:
-          material: 287
-          quantity: 32
+          material: 148
+          quantity: 16
         buyPrice: 50
         slot: 23
       25:
         type: item
         item:
-          material: 30
-          quantity: 16
+          material: 152
+          quantity: 32
         buyPrice: 50
         slot: 24
       26:
         type: item
         item:
-          material: 324
+          material: 167
           quantity: 16
         buyPrice: 20
         slot: 25
@@ -1554,102 +1552,185 @@ shops:
           material: 160
           damage: 15
           quantity: 1
-        slot: 31
+        slot: 27
       29:
         type: item
         item:
-          material: 12
-          quantity: 1
-          damage: 0
+          material: 44
+          damage: 3
+          quantity: 32
         buyPrice: 50
-        slot: 30
-      30:
-        type: command
-        item:
-          material: 383
-          quantity: 1
-          damage: 50
-          name: "&c&l** Charged Creeper Egg **"
-          enchantments:
-            - FORTUNE:10
-        commands:
-          - "bce give %PLAYER% charged"
-        buyPrice: 100000
-        slot: 32
-      31:
-        type: command
-        item:
-          material: 327
-          quantity: 1
-          name: "&7&lCobblestone &c&lGenBucket"
-          enchantments:
-            - EFFICIENCY: 10
-        commands:
-          - "instawall give %PLAYER% cobblestone 1"
-        buyPrice: 3500
         slot: 28
-      32:
-        type: command
+      30:
+        type: item
         item:
-          material: 327
-          quantity: 1
-          name: "&e&lSand &c&lGenBucket"
-          enchantments:
-            - EFFICIENCY: 10
-        commands:
-          - "instawall give %PLAYER% sand 1"
-        buyPrice: 5000
+          material: 65
+          quantity: 16
+          buyPrice: 100
         slot: 29
+      31:
+        type: item
+        item:
+          material: 323
+          quantity: 16
+          buyPrice: 100
+        slot: 30
+      32:
+        type: item
+        item:
+          material: 19
+          damage: 0
+          quantity: 32
+          buyPrice: 100
+        slot: 31
       33:
-        type: command
+        type: item
         item:
-          material: 327
-          quantity: 1
-          name: "&8&lObsidian &c&lGenBucket"
-          enchantments:
-            - EFFICIENCY: 10
-        commands:
-          - "instawall give %PLAYER% obsidian 1"
-        buyPrice: 7500
-        slot: 33
+          material: 287
+          quantity: 32
+          buyPrice: 100
+        slot: 32
       34:
-        type: command
+        type: item
         item:
-          material: 327
-          quantity: 1
-          name: "&6&lEndstone &c&lGenBucket"
-          enchantments:
-            - EFFICIENCY: 10
-        commands:
-          - "instawall give %PLAYER% endstone 1"
-        buyPrice: 10000
-        slot: 34
+          material: 30
+          quantity: 16
+          buyPrice: 100
+        slot: 33
       35:
-        type: command
+        type: item
         item:
-          material: 154
-          quantity: 1
-          name: "&3&lCrop &f&lHopper"
-          enchantments:
-            - LOOTING: 5
-        commands:
-          - "hlr give %PLAYER% 1"
-        buyPrice: 75000
-        slot: 40
+          material: 324
+          quantity: 16
+          buyPrice: 100
+        slot: 34
       36:
         type: item
         item:
-          material: 54
+          material: 160
+          damage: 15
           quantity: 1
-        buyPrice: 50
-        slot: 27
+        slot: 35
       37:
         type: item
         item:
-          material: 146
+          material: 160
+          damage: 10
           quantity: 1
-        buyPrice: 50
-        slot: 35
+        slot: 36
+      38:
+        type: item
+        item:
+          material: 143
+          quantity: 16
+          buyPrice: 300
+        slot: 37
+      39:
+        type: item
+        item:
+          material: 404
+          quantity: 32
+          buyPrice: 300
+        slot: 38
+      40:
+        type: item
+        item:
+          material: 356
+          quantity: 32
+          buyPrice: 300
+        slot: 39
+      41:
+        type: item
+        item:
+          material: 330
+          quantity: 16
+          buyPrice: 300
+        slot: 40
+      42:
+        type: item
+        item:
+          material: 331
+          quantity: 64
+          buyPrice: 300
+        slot: 41
+      43:
+        type: item
+        item:
+          material: 77
+          quantity: 16
+          buyPrice: 300
+        slot: 42
+      44:
+        type: item
+        item:
+          material: 23
+          quantity: 64
+          buyPrice: 300
+        slot: 43
+      45:
+        type: item
+        item:
+          material: 160
+          damage: 10
+          quantity: 1
+        slot: 44
+      46:
+        type: item
+        item:
+          material: 160
+          damage: 15
+          quantity: 1
+        slot: 45
+      47:
+        type: item
+        item:
+          material: 160
+          damage: 10
+          quantity: 1
+        slot: 46
+      48:
+        type: item
+        item:
+          material: 160
+          damage: 15
+          quantity: 1
+        slot: 47
+      49:
+        type: item
+        item:
+          material: 160
+          damage: 10
+          quantity: 1
+        slot: 48
+      51:
+        type: item
+        item:
+          material: 160
+          damage: 10
+          quantity: 1
+        slot: 50
+      52:
+        type: item
+        item:
+          material: 160
+          damage: 15
+          quantity: 1
+        slot: 51
+      53:
+        type: item
+        item:
+          material: 160
+          damage: 10
+          quantity: 1
+        slot: 52
+      54:
+        type: item
+        item:
+          material: 160
+          damage: 15
+          quantity: 1
+        slot: 53
+      
   spawners:
     name: "&b&lSpawners (page %page%)"
     size: 36
