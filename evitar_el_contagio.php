@@ -36,10 +36,12 @@ include('header.php');
                     <li>Evite el contacto cercano con personas que están enfermas</li>
                     <li>Quédese en casa tanto como sea posible.</li>
                     <li>Ponga distancia entre usted y las demás personas.
-                        <ul>
-                            <li>Recuerde que algunas personas que no tienen síntomas pueden propagar el virus.</li>
-                            <li>Mantener distancia con los demás es especialmente importante para las personas que tienen mayor riesgo de enfermarse gravemente.</li>
-                        </ul>
+                        <div class="marginIzquierda">
+                            <ul>
+                                <li>Recuerde que algunas personas que no tienen síntomas pueden propagar el virus.</li>
+                                <li>Mantener distancia con los demás es especialmente importante para las personas que tienen mayor riesgo de enfermarse gravemente.</li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
             </div>
