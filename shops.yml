@@ -1176,14 +1176,15 @@ shops:
       22:
         type: item
         item:
-          material: 160
+          material: 277
           quantity: 1
-          damage: 10
+        buyPrice: 150
+        unstack: true
         slot: 21
       23:
         type: item
         item:
-          material: 277
+          material: 256
           quantity: 1
         buyPrice: 150
         unstack: true
@@ -1191,7 +1192,7 @@ shops:
       24:
         type: item
         item:
-          material: 256
+          material: 284
           quantity: 1
         buyPrice: 150
         unstack: true
@@ -1199,10 +1200,9 @@ shops:
       25:
         type: item
         item:
-          material: 284
+          material: 160
           quantity: 1
-        buyPrice: 150
-        unstack: true
+          damage: 15
         slot: 24
       26:
         type: item
@@ -1242,14 +1242,15 @@ shops:
       31:
         type: item
         item:
-          material: 160
+          material: 293
           quantity: 1
-          damage: 15
+        buyPrice: 150
+        unstack: true
         slot: 30
       32:
         type: item
         item:
-          material: 293
+          material: 292
           quantity: 1
         buyPrice: 150
         unstack: true
@@ -1257,7 +1258,7 @@ shops:
       33:
         type: item
         item:
-          material: 292
+          material: 294
           quantity: 1
         buyPrice: 150
         unstack: true
@@ -1265,10 +1266,9 @@ shops:
       34:
         type: item
         item:
-          material: 294
+          material: 160
           quantity: 1
-        buyPrice: 150
-        unstack: true
+          damage: 10
         slot: 33
       35:
         type: item
@@ -1308,14 +1308,15 @@ shops:
       40:
         type: item
         item:
-          material: 160
+          material: 278
           quantity: 1
-          damage: 10
+        buyPrice: 150
+        unstack: true
         slot: 39
       41:
         type: item
         item:
-          material: 278
+          material: 257
           quantity: 1
         buyPrice: 150
         unstack: true
@@ -1323,7 +1324,7 @@ shops:
       42:
         type: item
         item:
-          material: 257
+          material: 285
           quantity: 1
         buyPrice: 150
         unstack: true
@@ -1331,10 +1332,9 @@ shops:
       43:
         type: item
         item:
-          material: 285
+          material: 160
           quantity: 1
-        buyPrice: 150
-        unstack: true
+          damage: 15
         slot: 42
       44:
         type: item
@@ -1385,6 +1385,13 @@ shops:
           quantity: 1
           damage: 10
         slot: 49
+      51:
+        type: item
+        item:
+          material: 160
+          quantity: 1
+          damage: 15
+        slot: 50
       52:
         type: item
         item:
