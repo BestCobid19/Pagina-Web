@@ -552,7 +552,7 @@ shopMenuItems:
       material: 160
       damage: 10
       quantity: 1
-     slot: 0
+    slot: 0
   11:
     item:
       material: 160
@@ -562,57 +562,207 @@ shopMenuItems:
   12:
     item:
       material: 160
-      damage: 15
+      damage: 10
       quantity: 1
     slot: 2
   13:
     item:
       material: 160
-      damage: 10
+      damage: 15
       quantity: 1
     slot: 3
   14:
     item:
       material: 160
-      damage: 15
+      damage: 10
       quantity: 1
     slot: 4
   15:
     item:
       material: 160
-      damage: 10
+      damage: 15
       quantity: 1
     slot: 5
   16:
     item:
       material: 160
-      damage: 15
+      damage: 10
       quantity: 1
     slot: 6
   17:
     item:
       material: 160
-      damage: 10
+      damage: 15
       quantity: 1
     slot: 7
   18:
     item:
       material: 160
-      damage: 15
+      damage: 10
       quantity: 1
     slot: 8
   19:
     item:
       material: 160
-      damage: 10
+      damage: 15
       quantity: 1
     slot: 9
   20:
     item:
       material: 160
-      damage: 15
+      damage: 10
       quantity: 1
     slot: 10
+  21:
+    item:
+      material: 160
+      damage: 10
+      quantity: 1
+    slot: 16
+  22:
+    item:
+      material: 160
+      damage: 15
+      quantity: 1
+    slot: 17
+  23:
+    item:
+      material: 160
+      damage: 10
+      quantity: 1
+    slot: 18
+  24:
+    item:
+      material: 160
+      damage: 15
+      quantity: 1
+    slot: 19
+  25:
+    item:
+      material: 160
+      damage: 10
+      quantity: 1
+    slot: 20
+  26:
+    item:
+      material: 160
+      damage: 10
+      quantity: 1
+    slot: 24
+  27:
+    item:
+      material: 160
+      damage: 15
+      quantity: 1
+    slot: 25
+  28:
+    item:
+      material: 160
+      damage: 10
+      quantity: 1
+    slot: 26
+  29:
+    item:
+      material: 160
+      damage: 15
+      quantity: 1
+    slot: 27
+  30:
+    item:
+      material: 160
+      damage: 10
+      quantity: 1
+    slot: 28
+  31:
+    item:
+      material: 160
+      damage: 15
+      quantity: 1
+    slot: 29
+  32:
+    item:
+      material: 160
+      damage: 10
+      quantity: 1
+    slot: 30
+  33:
+    item:
+      material: 160
+      damage: 10
+      quantity: 1
+    slot: 32
+  34:
+    item:
+      material: 160
+      damage: 15
+      quantity: 1
+    slot: 33
+  35:
+    item:
+      material: 160
+      damage: 10
+      quantity: 1
+    slot: 34
+  36:
+    item:
+      material: 160
+      damage: 15
+      quantity: 1
+    slot: 35
+  37:
+    item:
+      material: 160
+      damage: 10
+      quantity: 1
+    slot: 36
+  38:
+    item:
+      material: 160
+      damage: 15
+      quantity: 1
+    slot: 37
+  39:
+    item:
+      material: 160
+      damage: 10
+      quantity: 1
+    slot: 38
+  40:
+    item:
+      material: 160
+      damage: 15
+      quantity: 1
+    slot: 39
+  41:
+    item:
+      material: 160
+      damage: 10
+      quantity: 1
+    slot: 40
+  42:
+    item:
+      material: 160
+      damage: 15
+      quantity: 1
+    slot: 41
+  43:
+    item:
+      material: 160
+      damage: 10
+      quantity: 1
+    slot: 42
+  44:
+    item:
+      material: 160
+      damage: 15
+      quantity: 1
+    slot: 43
+  45:
+    item:
+      material: 160
+      damage: 10
+      quantity: 1
+    slot: 44
   
 
 specialElements:
