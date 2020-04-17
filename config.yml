@@ -547,6 +547,72 @@ shopMenuItems:
       name: "&b&lSpawners"
     shop: "spawners"
     slot: 23
+  10:
+    item:
+      material: 160
+      damage: 10
+      quantity: 1
+     slot: 0
+  11:
+    item:
+      material: 160
+      damage: 15
+      quantity: 1
+    slot: 1
+  12:
+    item:
+      material: 160
+      damage: 15
+      quantity: 1
+    slot: 2
+  13:
+    item:
+      material: 160
+      damage: 10
+      quantity: 1
+    slot: 3
+  14:
+    item:
+      material: 160
+      damage: 15
+      quantity: 1
+    slot: 4
+  15:
+    item:
+      material: 160
+      damage: 10
+      quantity: 1
+    slot: 5
+  16:
+    item:
+      material: 160
+      damage: 15
+      quantity: 1
+    slot: 6
+  17:
+    item:
+      material: 160
+      damage: 10
+      quantity: 1
+    slot: 7
+  18:
+    item:
+      material: 160
+      damage: 15
+      quantity: 1
+    slot: 8
+  19:
+    item:
+      material: 160
+      damage: 10
+      quantity: 1
+    slot: 9
+  20:
+    item:
+      material: 160
+      damage: 15
+      quantity: 1
+    slot: 10
   
 
 specialElements:

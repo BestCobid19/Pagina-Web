@@ -3084,8 +3084,7 @@ shops:
           damage: 0
           name: "&6&lBlaze Spawner"
         commands:
-          - "ss give %PLAYER% blaze 1
-"
+          - "ss give %PLAYER% blaze 1"
         runAsBuyer: false
         buyPrice: 150000
         slot: 13
@@ -3101,3 +3100,4 @@ shops:
         runAsBuyer: false
         buyPrice: 2000000
         slot: 14
+      
