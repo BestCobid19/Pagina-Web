@@ -26,10 +26,10 @@
         <h5 class="text-uppercase ">Políticas</h5>
         <ul class="list-unstyled">
           <li>
-            <a href="#!">Términos y condiciones</a>
+            <a href="terminos.php">Términos y condiciones</a>
           </li>
           <li>
-            <a href="#!">Política de cookies</a>
+            <a href="cookies.php">Política de cookies</a>
           </li>
         </ul>
       </div>
@@ -37,10 +37,10 @@
         <h5 class="text-uppercase ">Información</h5>
         <ul class="list-unstyled">
           <li>
-            <a href="#!">¿Qué es el covid-19?</a>
+            <a href="covid-19.php">¿Qué es el covid-19?</a>
           </li>
           <li>
-            <a href="#!">¿Qué debemos hacer?</a>
+            <a href="sintomas.php">Síntomas</a>
           </li>
         </ul>
       </div>
