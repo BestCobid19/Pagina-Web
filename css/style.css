@@ -154,3 +154,6 @@ html.transition *:after {
 .marginAll{
     margin: 3rem;
 }
+.centrar{
+    text-align: center;
+}

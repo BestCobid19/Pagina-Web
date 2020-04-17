@@ -35,6 +35,9 @@
                     <a class="nav-link active" href="evitar_el_contagio.php" tabindex="-1" aria-disabled="true"><i class="fas fa-shield-virus"></i> Evite el contagio</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link active" href="lucha.php" tabindex="-1" aria-disabled="true"><i class="fas fa-shield-virus"></i>Lucha contra el coronavirus</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link active" href="https://coronavirus.app/map" target="_blank"><i class="far fa-hand-paper"></i> Coronavirus App</a>
                 </li>
             </ul>

@@ -32,7 +32,7 @@ include('header.php');
         </p>
         <div class="container">
 
-            <div class="col-md-12 col-md-offset-5">
+            <div class="centrar">
                 <img src="img/fiebre.png" alt="" width="200rem">
                 <img src="img/tos.png" alt="" width="200rem">
                 <img src="img/pulmones.png" alt="" srcset="" width="200rem">

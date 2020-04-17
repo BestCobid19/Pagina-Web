@@ -20,7 +20,6 @@ include('header.php');
 
             <h1><span class="bordeIzquierdaFino"></span>¿Qué es la COVID-19?</h1>
             <p>La COVID-19 es la enfermedad infecciosa causada por el coronavirus que se ha descubierto más recientemente. Tanto el nuevo virus como la enfermedad eran desconocidos antes de que estallara el brote en Wuhan (China) en diciembre de 2019.</p>
-            <img src="img/coronaviruspng.png" alt="" srcset="" width="200rem" class="rounded mx-auto d-block">
         </div>
     </div>
 <?php
