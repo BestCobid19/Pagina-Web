@@ -22,15 +22,16 @@
                 <li class="nav-item">
                     <a class="nav-link active" href="index.php"><i class="fas fa-info"></i> Inicio</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="covid-19.php"><i class="fas fa-info"></i> ¿Qué es el COVID-19?</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="sintomas.php"><i class="fas fa-viruses"></i> Síntomas</i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="propaga.php"><i class="fas fa-question"></i> ¿Cómo se propaga la COVID-19?</a>
-                </li>
+                <div class="dropdown marginTop">
+                    <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-info"></i> ¿COVID-19?
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="covid-19.php"><i class="fas fa-info"></i> ¿Qué es el COVID-19?</a>
+                        <a class="dropdown-item" href="sintomas.php"><i class="fas fa-viruses"></i> Síntomas</i></a>
+                        <a class="dropdown-item" href="propaga.php"><i class="fas fa-question"></i> ¿Cómo se propaga la COVID-19?</a>
+                    </div>
+                </div>
                 <li class="nav-item">
                     <a class="nav-link active" href="evitar_el_contagio.php" tabindex="-1" aria-disabled="true"><i class="fas fa-shield-virus"></i> Evite el contagio</a>
                 </li>

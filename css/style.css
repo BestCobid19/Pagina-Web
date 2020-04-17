@@ -78,6 +78,9 @@ footer{
 
 
 }
+.marginTop{
+    margin-top: 1rem;
+}
 .navbar-toggler{
     margin: 1rem;
 }
