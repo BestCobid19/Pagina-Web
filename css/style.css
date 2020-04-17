@@ -15,7 +15,7 @@ html{
     align-items: center;
     justify-items: center;
     --bg: #FCFCFC;
-    --bg-panel: #EBEBEB;
+    --bg-panel: rgb(255, 255,255);
     --color-headings:#333333;
     --color-text:#333333;
     --barrita:#FE9A2E;
@@ -23,7 +23,7 @@ html{
 }
 html[data-theme='dark']{
     --bg: #333333;
-    --bg-panel: #434343;
+    --bg-panel: #333333;
     --color-headings:#333333;
     --color-text:rgb(255, 255, 255);
     --barrita:#F7819F;
@@ -105,10 +105,10 @@ footer{
 }
 .nav-boton{
     color: var(--color-text);
-    background-color: var(--color-headings);
+    background-color: var(--bg-panel);
 }
 .dropdown-menu{
-    background-color: var(--color-headings);
+    background-color: var(--bg-panel);
 }
 .jumbotron1{
     
