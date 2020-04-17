@@ -12,13 +12,10 @@
             <a href="#!">www.instagram.com</a>
           </li>
           <li>
-            <a href="#!">www.facebook.com</a>
+            <a href="https://twitter.com/opsoms">www.twitter.com</a>
           </li>
           <li>
-            <a href="#!">www.twitter.com</a>
-          </li>
-          <li>
-            <a href="#!">www.youtube.com</a>
+            <a href="https://www.youtube.com/channel/UC1U7M-rvlfWJ6mZcGQ33Mbw/videos">www.youtube.com</a>
           </li>
         </ul>
       </div>
