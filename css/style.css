@@ -103,7 +103,13 @@ footer{
     border-bottom: solid var(--blanco);
     
 }
-
+.nav-boton{
+    color: var(--color-text);
+    background-color: var(--color-headings);
+}
+.dropdown-menu{
+    background-color: var(--color-headings);
+}
 .jumbotron1{
     
     padding-bottom: 1rem;

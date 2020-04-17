@@ -22,14 +22,14 @@
                 <li class="nav-item">
                     <a class="nav-link active" href="index.php"><i class="fas fa-info"></i> Inicio</a>
                 </li>
-                <div class="dropdown marginTop">
-                    <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fas fa-info"></i> ¿COVID-19?
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle nav-link" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-info"></i> ¿COVID-19?
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="covid-19.php"><i class="fas fa-info"></i> ¿Qué es el COVID-19?</a>
-                        <a class="dropdown-item" href="sintomas.php"><i class="fas fa-viruses"></i> Síntomas</i></a>
-                        <a class="dropdown-item" href="propaga.php"><i class="fas fa-question"></i> ¿Cómo se propaga la COVID-19?</a>
+                        <a class="dropdown-item nav-boton" href="covid-19.php"><i class="fas fa-info"></i> ¿Qué es el COVID-19?</a>
+                        <a class="dropdown-item nav-boton" href="sintomas.php"><i class="fas fa-viruses"></i> Síntomas</i></a>
+                        <a class="dropdown-item nav-boton" href="propaga.php"><i class="fas fa-question"></i> ¿Cómo se propaga la COVID-19?</a>
                     </div>
                 </div>
                 <li class="nav-item">
