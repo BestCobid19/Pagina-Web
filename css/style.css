@@ -135,6 +135,12 @@ footer{
 .marginIzquierda{
     margin-left: 3rem;
 }
+.marginDerecha{
+    margin-right: 7rem;
+}
+.logosRedes{
+    margin:5px
+}
 h2{
     font-weight: bold;
 }

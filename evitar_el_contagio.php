@@ -9,6 +9,12 @@ include('header.php');
 
     </div>
 </div>
+<div class="text-right marginDerecha">
+    <a href=""><img src="img/instagram.png"alt="instagram" class="logosRedes"></a>
+    <a href=""><img src="img/youtube.png"alt="youtube" class="logosRedes"></a>
+    <a href=""><img src="img/twitter.png"alt="twitter" class="logosRedes"></a>
+</div>
+
 <div class="container borde">
     <div class="texto">
         <h2 class="texto"><span class="bordeIzquierdaFino"></span>Consejos para evitar el contagio</h2>
@@ -57,12 +63,12 @@ include('header.php');
                 <ul>
                     <li>Usted podría propagar el COVID-19 incluso si no se siente enfermo.</li>
                     <li>Todos deberían usar una cubierta de tela para cara cuando salen de sus casas, por ejemplo, para ir a la tienda de comestibles o para buscar otros productos necesarios.
-                    <div class="marginIzquierda">
-                        <ul>
-                            <li>Las cubiertas de tela para cara no se deberían usar en niños menores de 2 años ni en personas con problemas respiratorios o que estén inconscientes, incapacitadas o no sean capaces de quitárselas sin ayuda.</li>
-                        </ul> 
-                    </div>   
-                   
+                        <div class="marginIzquierda">
+                            <ul>
+                                <li>Las cubiertas de tela para cara no se deberían usar en niños menores de 2 años ni en personas con problemas respiratorios o que estén inconscientes, incapacitadas o no sean capaces de quitárselas sin ayuda.</li>
+                            </ul>
+                        </div>
+
                     </li>
                     <li>La cubierta de tela para cara es para proteger a las demás personas en caso de que usted esté infectado.</li>
                     <li>NO use una mascarilla destinada a los trabajadores de la salud.</li>
@@ -79,7 +85,7 @@ include('header.php');
             <div class="col-8">
                 <h3>Cubrirse la boca al toser y estornudar</h3>
                 <ul>
-                    <li> <strong>Si se encuentra en un ámbito privado y no tiene puesta la cubierta de tela para la cara, recuerde siempre cubrirse la boca y la nariz</strong>  con un pañuelo desechable o con la parte interna del codo al toser o estornudar.</li>
+                    <li> <strong>Si se encuentra en un ámbito privado y no tiene puesta la cubierta de tela para la cara, recuerde siempre cubrirse la boca y la nariz</strong> con un pañuelo desechable o con la parte interna del codo al toser o estornudar.</li>
                     <li><strong>Tire los pañuelos desechables usados</strong>a la basura.</li>
                     <li><strong>Lávese las manos</strong>inmediatamente con agua y jabón por al menos 20 segundos. Si no dispone de agua y jabón, límpiese las manos con un desinfectante de manos que contenga al menos un 60 % de alcohol.</li>
                 </ul>
