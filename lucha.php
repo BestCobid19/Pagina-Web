@@ -6,10 +6,18 @@ include('header.php');
         <h1 class="display-4 bordeBot">¿Qué hacer si estas enfermo?</h1>
     </div>
 </div>
+<div class="text-right container marginBot">
+    <a href="#"><img src="img/instagram.png"alt="instagram" width="25px" class="logosRedes"></a>
+    <a href="https://www.youtube.com/channel/UC1U7M-rvlfWJ6mZcGQ33Mbw/videos"><img src="img/youtube.png"alt="youtube" width="25px" class="logosRedes"></a>
+    <a href="https://twitter.com/opsoms"><img src="img/twitter.png"alt="twitter" width="25px" class="logosRedes"></a>
+</div>
+
 <div class="container borde">
+    
     <div class="texto">
         <p><strong>Siga los pasos a continuación:</strong>si está enfermo con COVID-19 o cree que podría tener esta enfermedad, siga los pasos a continuación para cuidarse a sí mismo y ayudar a proteger a otras personas de su hogar y comunidad.</p>
         <h2 class="texto"><span class="bordeIzquierdaFino"></span>Medidas para ayudar a prevenir la propagación del COVID-19 si está enfermo</h2>
+
         <div class="row justify-content-around">
             <div class="col-2">
                 <img src="img/cama.png" alt="" srcset="">
@@ -24,7 +32,9 @@ include('header.php');
                 </ul>
             </div>
         </div>
+
         <br><br>
+
         <div class="row justify-content-around">
             <div class="col-2">
                 <img src="img/familia.png" alt="" srcset="">
@@ -34,7 +44,9 @@ include('header.php');
                 <p><strong>En la medida de lo posible, permanezca en una misma habitación</strong>y alejado de otras personas y mascotas en su casa. También debería usar otro baño, si tiene uno disponible. Si necesita estar con otras personas o animales dentro o fuera de su casa, use una cubierta de tela para cara.</p>
             </div>
         </div>
+
         <br><br>
+
         <div class="row justify-content-around">
             <div class="col-2">
                 <img src="img/termometro.png" alt="" srcset="">
@@ -47,6 +59,7 @@ include('header.php');
                 </ul>
             </div>
         </div>
+
     </div>
 </div>
 <?php
