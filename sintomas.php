@@ -9,6 +9,11 @@ include('header.php');
 
     </div>
 </div>
+<div class="text-right container marginBot">
+    <a href="#"><img src="img/instagram.png" alt="instagram" width="25px" class="logosRedes"></a>
+    <a href="https://www.youtube.com/channel/UC1U7M-rvlfWJ6mZcGQ33Mbw/videos"><img src="img/youtube.png" alt="youtube" width="25px" class="logosRedes"></a>
+    <a href="https://twitter.com/opsoms"><img src="img/twitter.png" alt="twitter" width="25px" class="logosRedes"></a>
+</div>
 <div class="container borde">
     <div class="texto">
 
@@ -49,7 +54,7 @@ include('header.php');
                 <li>Coloración azulada en los labios o el rostro</li>
             </ul>
         </div>
-        
+
 
         <p> <strong>Llame al 911 si tiene una emergencia médica:</strong>informe al operador que tiene, o cree que podría tener, COVID-19. De ser posible, colóquese una cubierta de tela para cara antes de que llegue el personal de servicios médicos.</p>
     </div>
