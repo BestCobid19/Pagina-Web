@@ -8,7 +8,11 @@ include('header.php');
 
     </div>
 </div>
-
+<div class="text-right container marginBot">
+    <a href="#"><img src="img/instagram.png"alt="instagram" width="25px" class="logosRedes"></a>
+    <a href="https://www.youtube.com/channel/UC1U7M-rvlfWJ6mZcGQ33Mbw/videos"><img src="img/youtube.png"alt="youtube" width="25px" class="logosRedes"></a>
+    <a href="https://twitter.com/opsoms"><img src="img/twitter.png"alt="twitter" width="25px" class="logosRedes"></a>
+</div>
 <div class="container borde">
     <div class="texto">
         <h2 class="texto"><span class="bordeIzquierdaFino"></span>Bulos sobre el coronavirus (COVID-19)</h2>
@@ -25,6 +29,7 @@ include('header.php');
                 </ul>
             </div>
         </div>
+        <br><br>
         <div class="row justify-content-around">
             <div class="col-2">
                 <img src="img/wifi.png" alt="" srcset="" width="160rem">
@@ -38,6 +43,7 @@ include('header.php');
                 </ul>
             </div>
         </div>
+        <br><br>
         <div class="row justify-content-around">
             <div class="col-2">
                 <img src="img/alcohol.png" alt="" srcset="" width="160rem">
@@ -51,7 +57,8 @@ include('header.php');
                 </ul>
             </div>
         </div>
-        <div class="row justify-content-aroun">
+        <br><br>
+        <div class="row justify-content-around">
             <div class="col-2">
                 <img src="img/sol.png" alt="" srcset="" width="200rem">
             </div>
@@ -64,6 +71,7 @@ include('header.php');
                 </ul>
             </div>
         </div>
+        <br><br>
         <div class="row justify-content-around">
             <div class="col-2">
                 <img src="img/bañera.png" alt="" srcset="" width="170rem">
