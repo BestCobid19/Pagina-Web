@@ -60,7 +60,7 @@ include('header.php');
     </div>
     <div class="row justify-content-around marginAll">
         <div class="col-2">
-        <img src="img/bañera.png" alt="" srcset="" width="200rem">
+        <img src="img/bañera.png" alt="" srcset="" width="170rem">
         </div>
         <div class="col-6">
             <ul>
