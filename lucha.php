@@ -3,7 +3,7 @@ include('header.php');
 ?>
 <div class="jumbotron jumbotron-fluid jumbotron1">
     <div class="container">
-        <h1 class="display-4 bordeBot">¿Que hacer si estas enfermo?</h1>
+        <h1 class="display-4 bordeBot">¿Qué hacer si estas enfermo?</h1>
     </div>
 </div>
 <div class="container borde">

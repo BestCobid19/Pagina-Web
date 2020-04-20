@@ -51,7 +51,7 @@ include('header.php');
                 </ul>
             </div>
         </div>
-        <div class="row justify-content-aroun">
+        <div class="row justify-content-around">
             <div class="col-2">
                 <img src="img/sol.png" alt="" srcset="" width="200rem">
             </div>
