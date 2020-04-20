@@ -77,7 +77,6 @@ include('header.php');
         </div>
         <br><br>
         <div class="row justify-content-around">
-
             <div class="col-2">
                 <img src="img/señoraCubriendoseBoca.png" alt="" srcset="">
             </div>
@@ -92,7 +91,6 @@ include('header.php');
         </div>
         <br><br>
         <div class="row justify-content-around">
-
             <div class="col-2">
                 <img src="img/limpiar.png" alt="" srcset="">
             </div>
