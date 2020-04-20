@@ -16,7 +16,7 @@ include('header.php');
             <div class="col-2">
                 <img src="img/laboratorio.png" alt="" srcset="" width="200rem">
             </div>
-            <div class="col-6">
+            <div class="col-8">
                 <h3>¿De dónde sale el coronavirus?</h3>
                 <ul>
                     <p>El coronavirus COVID-19 fue creado en un laboratorio por humanos. <strong>FALSO</strong>. El análisis genético publicado
@@ -29,7 +29,7 @@ include('header.php');
             <div class="col-2">
                 <img src="img/wifi.png" alt="" srcset="" width="160rem">
             </div>
-            <div class="col-6">
+            <div class="col-8">
                 <h3>¿Las redes propagan la COVID-19?</h3>
                 <ul>
                     <p>
@@ -42,7 +42,7 @@ include('header.php');
             <div class="col-2">
                 <img src="img/alcohol.png" alt="" srcset="" width="160rem">
             </div>
-            <div class="col-6">
+            <div class="col-8">
                 <h3>¿Beber alcohol me protegerá?</h3>
                 <ul>
                     <p>
@@ -55,7 +55,7 @@ include('header.php');
             <div class="col-2">
                 <img src="img/sol.png" alt="" srcset="" width="200rem">
             </div>
-            <div class="col-6">
+            <div class="col-8">
                 <h3>¿Las altas temperaturas me protegerán?</h3>
                 <ul>
                     <p>
@@ -64,11 +64,11 @@ include('header.php');
                 </ul>
             </div>
         </div>
-        <div class="row justify-content-around marginAll">
+        <div class="row justify-content-around">
             <div class="col-2">
                 <img src="img/bañera.png" alt="" srcset="" width="170rem">
             </div>
-            <div class="col-6">
+            <div class="col-8">
                 <h3>¿Bañarse en agua caliente previene el coronavirus?</h3>
                 <ul>
                     <p>
