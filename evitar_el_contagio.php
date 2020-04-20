@@ -9,12 +9,11 @@ include('header.php');
 
     </div>
 </div>
-<div class="text-right marginDerecha">
+<div class="text-right container marginBot">
     <a href=""><img src="img/instagram.png"alt="instagram" class="logosRedes"></a>
     <a href=""><img src="img/youtube.png"alt="youtube" class="logosRedes"></a>
     <a href=""><img src="img/twitter.png"alt="twitter" class="logosRedes"></a>
 </div>
-
 <div class="container borde">
     <div class="texto">
         <h2 class="texto"><span class="bordeIzquierdaFino"></span>Consejos para evitar el contagio</h2>

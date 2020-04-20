@@ -136,10 +136,13 @@ footer{
     margin-left: 3rem;
 }
 .marginDerecha{
-    margin-right: 7rem;
+    margin-right: 24rem;
+}
+.marginBot{
+    margin-bottom: 5px;
 }
 .logosRedes{
-    margin:5px
+    margin:6px
 }
 h2{
     font-weight: bold;
