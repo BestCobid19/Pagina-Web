@@ -3,7 +3,7 @@ include('header.php');
 ?>
 <div class="jumbotron jumbotron-fluid jumbotron1">
     <div class="container">
-        <h1 class="display-4 bordeBot">Bulos</h1>
+        <h1 class="display-4 bordeBot">Bulos (COVID-19)</h1>
 
 
     </div>
@@ -74,7 +74,7 @@ include('header.php');
                 </ul>
             </div>
         </div>
-        <br><br> <br>
+        <br><br>
         <div class="row justify-content-around">
             <div class="col-2">
                 <img src="img/bañera.png" alt="" srcset="" width="170rem">
