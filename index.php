@@ -24,6 +24,7 @@ include('header.php');
             <li> Organización Mundial de la Salud</li> 
             <li> Información del gobierno</li>
             <li> www.thefitmedstudent.com</li>
+            <li>Centro para el Control y la Prevención de Enfermedades</li>
         </div>
         <div class="col-md-4 col-sm-12">
             <img src="img/informaticos3.jpg" alt="" srcset="" width="350rem">
