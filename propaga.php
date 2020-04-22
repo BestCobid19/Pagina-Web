@@ -18,11 +18,11 @@ include('header.php');
     <div class="texto">
         <h2 class="texto"><span class="bordeIzquierdaFino"></span>¿Cómo se propaga la COVID-19?</h2>
         <div class="row justify-content-around">
-            <div class="col-2">
+            <div class="col-md-2 col-sm-12">
                 <img src="img/toseaotra.png" alt="" srcset="">
             </div>
 
-            <div class="col-8">
+            <div class="col-md-8 col-sm-12">
                 <ul>
                     <li>En estos momentos no existe una vacuna para prevenir la enfermedad del coronavirus 2019 (COVID-19).​​​​​​​</li>
                     <li><strong>La mejor manera de prevenir la enfermedad es evitar la exposición a este virus.</strong> </li>
