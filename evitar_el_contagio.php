@@ -9,7 +9,7 @@ include('header.php');
 
     </div>
 </div>
-<div class="text-right container marginBot">
+<div class="text-right container">
     <a href="#"><img src="img/instagram.png"alt="instagram" width="25px" class="logosRedes"></a>
     <a href="https://www.youtube.com/channel/UC1U7M-rvlfWJ6mZcGQ33Mbw/videos"><img src="img/youtube.png"alt="youtube" width="25px" class="logosRedes"></a>
     <a href="https://twitter.com/opsoms"><img src="img/twitter.png"alt="twitter" width="25px" class="logosRedes"></a>
