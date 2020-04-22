@@ -32,10 +32,10 @@ include('header.php');
         </div>
         <br><br>
         <div class="row justify-content-around">
-            <div class="col-2">
+            <div class="col-md-2 col-sm-12">
                 <img src="img/personaCasa.png" alt="" srcset="">
             </div>
-            <div class="col-8">
+            <div class="col-md-8 col-sm-12">
                 <h3>Evitar el contacto directo</h3>
                 <ul>
                     <li>Evite el contacto cercano con personas que están enfermas</li>
@@ -54,10 +54,10 @@ include('header.php');
         <br><br>
         <div class="row justify-content-around">
 
-            <div class="col-2">
+            <div class="col-md-2 col-sm-12">
                 <img src="img/mascara.png" alt="" srcset="">
             </div>
-            <div class="col-8">
+            <div class="col-md-8 col-sm-12">
                 <h3>Cubrirse la boca y la nariz con una cubierta de tela para cara al estar rodeados de personas</h3>
                 <ul>
                     <li>Usted podría propagar el COVID-19 incluso si no se siente enfermo.</li>
@@ -77,10 +77,10 @@ include('header.php');
         </div>
         <br><br>
         <div class="row justify-content-around">
-            <div class="col-2">
+            <div class="col-md-2 col-sm-12">
                 <img src="img/señoraCubriendoseBoca.png" alt="" srcset="">
             </div>
-            <div class="col-8">
+            <div class="col-md-8 col-sm-12">
                 <h3>Cubrirse la boca al toser y estornudar</h3>
                 <ul>
                     <li> <strong>Si se encuentra en un ámbito privado y no tiene puesta la cubierta de tela para la cara, recuerde siempre cubrirse la boca y la nariz</strong> con un pañuelo desechable o con la parte interna del codo al toser o estornudar.</li>
@@ -91,10 +91,10 @@ include('header.php');
         </div>
         <br><br>
         <div class="row justify-content-around">
-            <div class="col-2">
+            <div class="col-md-2 col-sm-12">
                 <img src="img/limpiar.png" alt="" srcset="">
             </div>
-            <div class="col-8">
+            <div class="col-md-8 col-sm-12">
                 <h3>Limpie y desinfecte</h3>
                 <ul>
                     <li><strong>Limpie Y desinfecte diariamente</strong>las superficies que se tocan con frecuencia . Esto incluye las mesas, las manijas de las puertas, los interruptores de luz, los mesones, las barandas, los escritorios, los teléfonos, los teclados, los inodoros, los grifos, los lavamanos y los lavaplatos.</li>

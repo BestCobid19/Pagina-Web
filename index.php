@@ -15,7 +15,7 @@ include('header.php');
 </div>
 <div class="container borde">
     <div class="row justify-content-around marginAll">
-        <div class="col-6">
+        <div class="col-md-6 col-sm-12">
             <h1><span class="bordeIzquierdaFino"></span>Luchamos contra la desinformación.</h1>
             <p>Somos dos estudiantes de CFGM que tenemos como objetivo hacer esta página web para el proyecto de FCT con el final de informar a la población
                 sobre la COVID-19, explicando que es, características, consejos y bulos.
@@ -25,7 +25,7 @@ include('header.php');
             <li> Información del gobierno</li>
             <li> www.thefitmedstudent.com</li>
         </div>
-        <div class="col-4">
+        <div class="col-md-4 col-sm-12">
             <img src="img/informaticos3.jpg" alt="" srcset="" width="350rem">
         </div>
     </div>

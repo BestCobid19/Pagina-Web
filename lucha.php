@@ -19,10 +19,10 @@ include('header.php');
         <h2 class="texto"><span class="bordeIzquierdaFino"></span>Medidas para ayudar a prevenir la propagación del COVID-19 si está enfermo</h2>
 
         <div class="row justify-content-around">
-            <div class="col-2">
+            <div class="col-md-2 col-sm-12">
                 <img src="img/cama.png" alt="" srcset="">
             </div>
-            <div class="col-8">
+            <div class="col-md-8 col-sm-12">
                 <h3>Quédese en casa, excepto para conseguir atención médica</h3>
                 <ul>
                     <li><strong>Permanezca en el hogar.</strong>  La mayoría de las personas con COVID-19 tienen una enfermedad leve y puedan recuperarse en casa sin atención médica. No salga de su casa, excepto para buscar atención médica. No visite áreas públicas.</li>
@@ -36,10 +36,10 @@ include('header.php');
         <br><br>
 
         <div class="row justify-content-around">
-            <div class="col-2">
+            <div class="col-md-2 col-sm-12">
                 <img src="img/familia.png" alt="" srcset="">
             </div>
-            <div class="col-8">
+            <div class="col-md-8 col-sm-12">
                 <h3>Quédese en casa, excepto para conseguir atención médica</h3>
                 <p><strong>En la medida de lo posible, permanezca en una misma habitación</strong>y alejado de otras personas y mascotas en su casa. También debería usar otro baño, si tiene uno disponible. Si necesita estar con otras personas o animales dentro o fuera de su casa, use una cubierta de tela para cara.</p>
             </div>
@@ -48,10 +48,10 @@ include('header.php');
         <br><br>
 
         <div class="row justify-content-around">
-            <div class="col-2">
+            <div class="col-md-2 col-sm-12">
                 <img src="img/termometro.png" alt="" srcset="">
             </div>
-            <div class="col-8">
+            <div class="col-md-8 col-sm-12">
                 <h3>Vigile sus síntomas</h3>
                 <ul>
                     <li><strong> Los síntomas comunes del COVID-19 incluyen fiebre y tos.</strong>La dificultad para respirar es un síntoma más grave que significa que debe recibir atención médica.</li>
