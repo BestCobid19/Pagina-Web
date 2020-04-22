@@ -175,9 +175,3 @@ html.transition *:after {
 .centrar{
     text-align: center;
 }
-.logosRedes{
-    transition: .3s linear;
-}
-.logosRedes:hover{
-    transform: scale(1.3);
-}
