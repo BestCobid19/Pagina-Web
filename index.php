@@ -25,7 +25,7 @@ include('header.php');
             <li> Información del gobierno</li>
             <li> www.thefitmedstudent.com</li>
         </div>
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-auto col-sm-12">
             <img src="img/informaticos3.jpg" alt="" srcset="" width="350rem">
         </div>
     </div>

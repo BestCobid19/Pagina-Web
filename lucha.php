@@ -19,7 +19,7 @@ include('header.php');
         <h2 class="texto"><span class="bordeIzquierdaFino"></span>Medidas para ayudar a prevenir la propagación del COVID-19 si está enfermo</h2>
 
         <div class="row justify-content-around">
-            <div class="col-md-2 col-sm-12">
+            <div class="col-md-auto col-sm-12">
                 <img src="img/cama.png" alt="" srcset="">
             </div>
             <div class="col-md-8 col-sm-12">
@@ -36,7 +36,7 @@ include('header.php');
         <br><br>
 
         <div class="row justify-content-around">
-            <div class="col-md-2 col-sm-12">
+            <div class="col-md-auto col-sm-12">
                 <img src="img/familia.png" alt="" srcset="">
             </div>
             <div class="col-md-8 col-sm-12">
@@ -48,7 +48,7 @@ include('header.php');
         <br><br>
 
         <div class="row justify-content-around">
-            <div class="col-md-2 col-sm-12">
+            <div class="col-md-auto col-sm-12">
                 <img src="img/termometro.png" alt="" srcset="">
             </div>
             <div class="col-md-8 col-sm-12">

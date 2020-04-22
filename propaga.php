@@ -18,7 +18,7 @@ include('header.php');
     <div class="texto">
         <h2 class="texto"><span class="bordeIzquierdaFino"></span>¿Cómo se propaga la COVID-19?</h2>
         <div class="row justify-content-around">
-            <div class="col-md-2 col-sm-12">
+            <div class="col-md-auto col-sm-12">
                 <img src="img/toseaotra.png" alt="" srcset="">
             </div>
 
