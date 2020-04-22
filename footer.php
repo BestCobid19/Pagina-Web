@@ -31,20 +31,26 @@
         </ul>
       </div>
       <div class="col-md-3 mb-md-0 mb-3">
-        <h5 class="text-uppercase ">Información</h5>
+        <h5 class="text-uppercase ">Fuentes</h5>
         <ul class="list-unstyled">
           <li>
-            <a href="covid-19.php">¿Qué es el covid-19?</a>
+            <a href="https://www.cdc.gov/spanish/" target="_blank">https://www.cdc.gov/spanish/</a>
           </li>
           <li>
-            <a href="sintomas.php">Síntomas</a>
+            <a href="https://thefitmedstudent.com/" target="_blank">https://thefitmedstudent.com/</a>
+          </li>
+          <li>
+            <a href="https://www.who.int/es" target="_blank">https://www.who.int/es</a>
+          </li>
+          <li>
+            <a href="https://www.mscbs.gob.es/" target="_blank">https://www.mscbs.gob.es/</a>
           </li>
         </ul>
       </div>
     </div>
   </div>
   <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href=""> proyectocovid.com</a>
+    <a href=""> coronavirusproyect.com</a>
   </div>
 </footer>
 <script src="js/script.js"></script>
