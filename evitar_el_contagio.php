@@ -18,10 +18,10 @@ include('header.php');
     <div class="texto">
         <h2 class="texto"><span class="bordeIzquierdaFino"></span>Consejos para evitar el contagio</h2>
         <div class="row justify-content-around">
-            <div class="col-2">
+            <div class="col-md-2 col-sm-12">
                 <img src="img/limpiarmanos.png" alt="" srcset="">
             </div>
-            <div class="col-8">
+            <div class="col-md-8 col-sm-12">
                 <h3>Limpiarse las manos con frecuencia</h3>
                 <ul>
                     <li>Lávese las manos con frecuencia con agua y jabón por al menos 20 segundos, especialmente después de haber estado en un lugar público, o después de sonarse la nariz, toser o estornudar.</li>
