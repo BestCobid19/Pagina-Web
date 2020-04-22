@@ -18,7 +18,7 @@ include('header.php');
     <div class="texto">
         <h2 class="texto"><span class="bordeIzquierdaFino"></span>Consejos para evitar el contagio</h2>
         <div class="row justify-content-around">
-            <div class="col-md-2 col-sm-12">
+            <div class="col-md-auto col-sm-12">
                 <img src="img/limpiarmanos.png" alt="" srcset="">
             </div>
             <div class="col-md-8 col-sm-12">
@@ -32,7 +32,7 @@ include('header.php');
         </div>
         <br><br>
         <div class="row justify-content-around">
-            <div class="col-md-2 col-sm-12">
+            <div class="col-md-auto col-sm-12">
                 <img src="img/personaCasa.png" alt="" srcset="">
             </div>
             <div class="col-md-8 col-sm-12">
@@ -54,7 +54,7 @@ include('header.php');
         <br><br>
         <div class="row justify-content-around">
 
-            <div class="col-md-2 col-sm-12">
+            <div class="col-md-auto col-sm-12">
                 <img src="img/mascara.png" alt="" srcset="">
             </div>
             <div class="col-md-8 col-sm-12">
@@ -77,7 +77,7 @@ include('header.php');
         </div>
         <br><br>
         <div class="row justify-content-around">
-            <div class="col-md-2 col-sm-12">
+            <div class="col-md-auto col-sm-12">
                 <img src="img/señoraCubriendoseBoca.png" alt="" srcset="">
             </div>
             <div class="col-md-8 col-sm-12">
@@ -91,7 +91,7 @@ include('header.php');
         </div>
         <br><br>
         <div class="row justify-content-around">
-            <div class="col-md-2 col-sm-12">
+            <div class="col-md-auto col-sm-12">
                 <img src="img/limpiar.png" alt="" srcset="">
             </div>
             <div class="col-md-8 col-sm-12">
