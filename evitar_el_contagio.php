@@ -58,20 +58,20 @@ include('header.php');
                 <img src="img/mascara.png" alt="" srcset="">
             </div>
             <div class="col-md-8 col-sm-12">
-                <h3>Cubrirse la boca y la nariz con una cubierta de tela para cara al estar rodeados de personas</h3>
+                <h3>Cubrirse la boca y la nariz con una mascarilla al estar rodeados de personas</h3>
                 <ul>
                     <li>Usted podría propagar el COVID-19 incluso si no se siente enfermo.</li>
-                    <li>Todos deberían usar una cubierta de tela para cara cuando salen de sus casas, por ejemplo, para ir a la tienda de comestibles o para buscar otros productos necesarios.
+                    <li>Todos deberían usar una mascarilla cuando salen de sus casas, por ejemplo, para ir a la tienda de comestibles o para buscar otros productos necesarios.
                         <div class="marginIzquierda">
                             <ul>
-                                <li>Las cubiertas de tela para cara no se deberían usar en niños menores de 2 años ni en personas con problemas respiratorios o que estén inconscientes, incapacitadas o no sean capaces de quitárselas sin ayuda.</li>
+                                <li>Las mascarillas no se deberían usar en niños menores de 2 años ni en personas con problemas respiratorios o que estén inconscientes, incapacitadas o no sean capaces de quitárselas sin ayuda.</li>
                             </ul>
                         </div>
 
                     </li>
-                    <li>La cubierta de tela para cara es para proteger a las demás personas en caso de que usted esté infectado.</li>
+                    <li>La mascarilla es para proteger a las demás personas en caso de que usted esté infectado.</li>
                     <li>NO use una mascarilla destinada a los trabajadores de la salud.</li>
-                    <li>Siga manteniendo una distancia de aproximadamente 6 pies de las demás personas. La cubierta de tela para cara no reemplaza las medidas de distanciamiento social.</li>
+                    <li>Siga manteniendo una distancia de aproximadamente entre 1.5 - 2 m de las demás personas. La mascarilla no reemplaza las medidas de distanciamiento social.</li>
                 </ul>
             </div>
         </div>
@@ -83,9 +83,9 @@ include('header.php');
             <div class="col-md-8 col-sm-12">
                 <h3>Cubrirse la boca al toser y estornudar</h3>
                 <ul>
-                    <li> <strong>Si se encuentra en un ámbito privado y no tiene puesta la cubierta de tela para la cara, recuerde siempre cubrirse la boca y la nariz</strong> con un pañuelo desechable o con la parte interna del codo al toser o estornudar.</li>
+                    <li> <strong>Si se encuentra en un ámbito privado y no tiene puesta la mascarilla, recuerde siempre cubrirse la boca y la nariz</strong> con un pañuelo desechable o con la parte interna del codo al toser o estornudar.</li>
                     <li><strong>Tire los pañuelos desechables usados</strong>a la basura.</li>
-                    <li><strong>Lávese las manos</strong>inmediatamente con agua y jabón por al menos 20 segundos. Si no dispone de agua y jabón, límpiese las manos con un desinfectante de manos que contenga al menos un 60 % de alcohol.</li>
+                    <li><strong>Lávese las manos</strong> inmediatamente con agua y jabón por al menos 20 segundos. Si no dispone de agua y jabón, límpiese las manos con un desinfectante de manos que contenga al menos un 60 % de alcohol.</li>
                 </ul>
             </div>
         </div>
@@ -97,9 +97,9 @@ include('header.php');
             <div class="col-md-8 col-sm-12">
                 <h3>Limpie y desinfecte</h3>
                 <ul>
-                    <li><strong>Limpie Y desinfecte diariamente</strong>las superficies que se tocan con frecuencia . Esto incluye las mesas, las manijas de las puertas, los interruptores de luz, los mesones, las barandas, los escritorios, los teléfonos, los teclados, los inodoros, los grifos, los lavamanos y los lavaplatos.</li>
-                    <li><strong>Si las superficies están sucias, límpielas.</strong>Lávelas con agua y detergente o jabón antes de desinfectarlas.</li>
-                    <li><strong>Luego, use un desinfectante de uso doméstico.</strong>La mayoría de los desinfectantes comunes para el hogar registrados en la EPAícono de sitio externo funcionarán.</li>
+                    <li><strong>Limpie y desinfecte diariamente</strong> las superficies que se tocan con frecuencia . Esto incluye las mesas, las manillas de las puertas, los interruptores de luz, las mesas, las barandas, los escritorios, los teléfonos, los teclados, los inodoros, los grifos, los lavamanos y los lavaplatos.</li>
+                    <li><strong>Si las superficies están sucias, límpielas.</strong> Lávelas con agua y detergente o jabón antes de desinfectarlas.</li>
+                    <li><strong>Luego, use un desinfectante de uso doméstico.</strong> La mayoría de los desinfectantes comunes para el hogar registrados en la EPAícono de sitio externo funcionarán.</li>
                 </ul>
             </div>
         </div>

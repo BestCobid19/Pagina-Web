@@ -18,7 +18,7 @@ include('header.php');
         <div class="col-md-6 col-sm-12">
             <h1><span class="bordeIzquierdaFino"></span>Luchamos contra la desinformación.</h1>
             <p>Somos dos estudiantes de CFGM que tenemos como objetivo hacer esta página web para el proyecto de FCT con el final de informar a la población
-                sobre la COVID-19, explicando que es, características, consejos y bulos.
+                sobre la COVID-19, explicando qué es, características, consejos y bulos.
             </p>
             <p>Todo la información que se muestra en esta página es información que proviene de fuentes fiables:</p>
             <li> Organización Mundial de la Salud</li> 

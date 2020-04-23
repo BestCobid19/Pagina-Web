@@ -45,7 +45,11 @@
                 <li class="nav-item">
                     <a class="nav-link active" href="https://coronavirus.app/map" target="_blank"><i class="far fa-hand-paper"></i> Coronavirus App</a>
                 </li>
+                
             </ul>
+            <li class="nav-item ml-auto">
+                    <a class="nav-link active" href="registro.php" target="_blank"><i class="fas fa-user-plus"></i> Registrarse</a>
+                </li>
             <button type="button" id="switch" class="boton ml-auto">Cambiar Tema</button>
         </div>
     </nav>

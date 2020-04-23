@@ -15,7 +15,7 @@ include('header.php');
 <div class="container borde">
     
     <div class="texto">
-        <p><strong>Siga los pasos a continuación:</strong>si está enfermo con COVID-19 o cree que podría tener esta enfermedad, siga los pasos a continuación para cuidarse a sí mismo y ayudar a proteger a otras personas de su hogar y comunidad.</p>
+        <p><strong>Siga los pasos a continuación:</strong> si está enfermo con COVID-19 o cree que podría tener esta enfermedad, siga los pasos a continuación para cuidarse a sí mismo y ayudar a proteger a otras personas de su hogar y comunidad.</p>
         <h2 class="texto"><span class="bordeIzquierdaFino"></span>Medidas para ayudar a prevenir la propagación del COVID-19 si está enfermo</h2>
 
         <div class="row justify-content-around">
@@ -26,8 +26,8 @@ include('header.php');
                 <h3>Quédese en casa, excepto para conseguir atención médica</h3>
                 <ul>
                     <li><strong>Permanezca en el hogar.</strong>  La mayoría de las personas con COVID-19 tienen una enfermedad leve y puedan recuperarse en casa sin atención médica. No salga de su casa, excepto para buscar atención médica. No visite áreas públicas.</li>
-                    <li><strong>Cuídese.</strong>Descanse y manténgase hidratado.</li>
-                    <li><strong>Manténgase en contacto con su médico. Llame antes de recibir atención médica.</strong>Asegúrese de obtener atención médica si tiene problemas para respirar o tiene algún signo de advertencia de emergencia, o si considera que se trata de una emergencia.</li>
+                    <li><strong>Cuídese.</strong> Descanse y manténgase hidratado.</li>
+                    <li><strong>Manténgase en contacto con su médico. Llame antes de recibir atención médica.</strong> Asegúrese de obtener atención médica si tiene problemas para respirar o tiene algún signo de advertencia de emergencia, o si considera que se trata de una emergencia.</li>
                     <li><strong>Evite el transporte público,</strong>  los vehículos compartidos y los taxis.</li>
                 </ul>
             </div>
@@ -41,7 +41,7 @@ include('header.php');
             </div>
             <div class="col-md-8 col-sm-12">
                 <h3>Quédese en casa, excepto para conseguir atención médica</h3>
-                <p><strong>En la medida de lo posible, permanezca en una misma habitación</strong>y alejado de otras personas y mascotas en su casa. También debería usar otro baño, si tiene uno disponible. Si necesita estar con otras personas o animales dentro o fuera de su casa, use una cubierta de tela para cara.</p>
+                <p><strong>En la medida de lo posible, permanezca en una misma habitación</strong> y alejado de otras personas y mascotas en su casa. También debería usar otro baño, si tiene uno disponible. Si necesita estar con otras personas o animales dentro o fuera de su casa, use una mascarilla.</p>
             </div>
         </div>
 
@@ -54,8 +54,8 @@ include('header.php');
             <div class="col-md-8 col-sm-12">
                 <h3>Vigile sus síntomas</h3>
                 <ul>
-                    <li><strong> Los síntomas comunes del COVID-19 incluyen fiebre y tos.</strong>La dificultad para respirar es un síntoma más grave que significa que debe recibir atención médica.</li>
-                    <li><strong>Siga las instrucciones de cuidado de su proveedor de atención médica y departamento de salud local.</strong>Las autoridades de salud locales le brindarán indicaciones sobre cómo verificar sus síntomas y notificar la información.</li>
+                    <li><strong> Los síntomas comunes del COVID-19 incluyen fiebre y tos.</strong> La dificultad para respirar es un síntoma más grave que significa que debe recibir atención médica.</li>
+                    <li><strong>Siga las instrucciones de cuidado de su proveedor de atención médica y departamento de salud local.</strong> Las autoridades de salud locales le brindarán indicaciones sobre cómo verificar sus síntomas y notificar la información.</li>
                 </ul>
             </div>
         </div>

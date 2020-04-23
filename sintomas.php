@@ -56,7 +56,7 @@ include('header.php');
         </div>
 
 
-        <p> <strong>Llame al 911 si tiene una emergencia médica:</strong>informe al operador que tiene, o cree que podría tener, COVID-19. De ser posible, colóquese una cubierta de tela para cara antes de que llegue el personal de servicios médicos.</p>
+        <p> <strong>Llame a los servicios de atención médica de su comunidad autónoma si tiene una emergencia médica: </strong>informe al operador que tiene, o cree que podría tener, COVID-19. De ser posible, colóquese una mascarilla antes de que llegue el personal de servicios médicos.</p>
     </div>
 </div>
 <?php
