@@ -6,13 +6,11 @@ include('header.php');
     <h1>Regístrese</h1>
 
 <div class="txtb">
-    <input type="text">
-    <span data-placeholder="Usuario"></span>
+    <input type="text" placeholder="Usuario" >
 </div>
 
 <div class="txtb">
-    <input type="email">
-    <span data-placeholder="Correo electrónico"></span>
+    <input type="email" placeholder="Correo electrónico">
 </div>
 
 <div class="txtb">
