@@ -14,13 +14,11 @@ include('header.php');
 </div>
 
 <div class="txtb">
-    <input type="password">
-    <span data-placeholder="Contraseña"></span>
+    <input type="password" placeholder="Contraseña">
 </div>
 
 <div class="txtb">
-    <input type="password">
-    <span data-placeholder="Repita la contraseña"></span>
+    <input type="password" placeholder="Repita la contraseña">
 </div>
 
 <input type="submit" class="regbtn" value="Registrarse">
