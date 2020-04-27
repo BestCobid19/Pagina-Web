@@ -182,8 +182,8 @@ html.transition *:after {
     margin: 100px auto;
     border: none;
     border-radius: 10px;
-    background-color: var(--color-text);
-    color:var(--bg-panel);
+    background-color: var(--bg);
+    color:var(--color-text);
     text-align: center;
     justify-items: center;
     
@@ -196,9 +196,18 @@ html.transition *:after {
     margin-bottom: 1rem;
     border-radius: 10px;
 }
-input[type=email],[type=password]{
+input[type=email],[type=password],[type=text]{
+    width:200px;
     border:none;
+    border-radius: 10px;
     outline:none;
+    background-color: var(--bg);
+    color:var(--color-text);
+
+}
+input[type=email]:focus,[type=password]:focus,[type=text]:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 10px 0 dodgerBlue;
 }
 .logboton{
     width:150px;
