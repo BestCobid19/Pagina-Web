@@ -15,7 +15,10 @@ include('header.php');
             </div>
             <input type="submit" class="logboton" value="Login">
             <div class="texto-inferior">
-                ¿No tienes cuenta? <a href="#">Regístrate</a>
+                ¿No tienes cuenta? <a href="registro.php">Regístrate</a>
+            </div>
+            <div>
+            ¿Has olvidado tu contraseña? <a href="recupera_contraseña.php">Recupérala</a>
             </div>
         </div>
     </div>

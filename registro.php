@@ -14,15 +14,12 @@ include('header.php');
                 <input type="email" class="bloque" name="mail" placeholder="Correo electrónico">
             </div>
             <div class="txtb">
-                <input type="password" class="bloque" name="password" placeholder="Contraseña">
+                <input type="password" class="bloque" name="password_1" placeholder="Contraseña">
             </div>
             <div class="txtb">
-                <input type="password" class="bloque" name="password" placeholder="Repita la Contraseña">
+                <input type="password" class="bloque" name="password_2" placeholder="Repita la Contraseña">
             </div>
             <input type="submit" class="logboton" value="Login">
-            <div class="texto-inferior">
-                ¿Has olvidado tu contraseña? <a href="#">Recupérala</a>
-            </div>
         </div>
     </div>
 </form>
