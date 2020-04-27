@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/1c44cf5aa1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="shortcut icon" href="favicon.ico" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 
@@ -45,11 +45,14 @@
                 <li class="nav-item">
                     <a class="nav-link active" href="https://coronavirus.app/map" target="_blank"><i class="far fa-hand-paper"></i> Coronavirus App</a>
                 </li>
-                
+
             </ul>
             <li class="nav-item ml-auto">
-                    <a class="nav-link active" href="registro.php" target="_blank"><i class="fas fa-user-plus"></i> Registrarse</a>
+                    <a class="nav-link active" href="login.php"><i class="fas fa-user-plus"></i> Login</a>
                 </li>
+            <li class="nav-item ml-auto">
+                <a class="nav-link active" href="registro.php"><i class="fas fa-user-plus"></i> Registrarse</a>
+            </li>
             <button type="button" id="switch" class="boton ml-auto">Cambiar Tema</button>
         </div>
     </nav>

@@ -176,3 +176,33 @@ html.transition *:after {
 .centrar{
     text-align: center;
 }
+.inicio_sesion{
+    width: 300px;
+    height: 300px;
+    margin: 100px auto;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--color-text);
+    color:var(--bg-panel);
+    text-align: center;
+    justify-items: center;
+    
+}
+.bloque{
+    margin-top: 1rem;
+}
+
+.txtb{
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+input[type=email],[type=password]{
+    border:none;
+    outline:none;
+}
+.logboton{
+    width:150px;
+    border-radius:10px;
+    height: 30px;
+    margin-bottom: 20px;
+}
