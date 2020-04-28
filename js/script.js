@@ -18,9 +18,19 @@ if (darkMode === "enabled"){
 darkModeToggle.addEventListener("click", () => {
     darkMode = localStorage.getItem("darkMode");
     if (darkMode !== "enabled"){
+        trans()
         enableDarkMode();
         
     }else {
+        trans()
         disableDarkMode();
     }
 });
+
+
+let trans = () => {
+    document.documentElement.classList.add('transition');
+    window.setTimeout(() => {
+        document.documentElement.classList.remove('transition')
+    }, 1000)
+}

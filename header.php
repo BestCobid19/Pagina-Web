@@ -31,6 +31,7 @@
                         <a class="dropdown-item nav-boton" href="covid-19.php"><i class="fas fa-info"></i> ¿Qué es el COVID-19?</a>
                         <a class="dropdown-item nav-boton" href="sintomas.php"><i class="fas fa-viruses"></i> Síntomas</i></a>
                         <a class="dropdown-item nav-boton" href="propaga.php"><i class="fas fa-question"></i> ¿Cómo se propaga la COVID-19?</a>
+                        <a class="dropdown-item nav-boton" href="coronatest.php"><i class="fas fa-question"></i> Test del COVID-19</a>
                     </div>
                 </div>
                 <li class="nav-item">
