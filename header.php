@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -48,6 +51,21 @@
                 </li>
 
             </ul>
+            <?php
+            if (isset($_SESSION['userId'])) {
+                echo ('<li class="nav-item ml-auto"><form action="includes/logout.inc.php" method="post">
+                    <button type="submit" name="logout-submit">Logout</button>
+                 </form></li>');
+            } else {
+                echo '
+                 <li class="nav-item ml-auto">
+                 <a class="nav-link active" href="signup.php" target="_blank"><i class="fas fa-user-plus"></i> Registrarse</a>
+                 </li>
+                 <li class="nav-item ml-auto">
+                 <a class="nav-link active" href="login.php" target="_blank"> Logeate</a>
+                 </li>';
+            }
+            ?>
             <li class="nav-item ml-auto">
                     <a class="nav-link active" href="login.php"><i class="fas fa-user-plus"></i> Login</a>
                 </li>
