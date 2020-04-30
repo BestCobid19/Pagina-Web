@@ -15,7 +15,6 @@ html{
     align-items: center;
     justify-items: center;
     --bg: #FCFCFC;
-    --blanco: rgb(255, 255, 255);
     --bg-panel: rgb(255, 255,255);
     --color-headings:#333333;
     --color-text:#333333;
@@ -49,18 +48,6 @@ body{
   
    
 }
-p{
-    color: var(--color-text);
-}
-li{
-    color: var(--color-text);
-}
-h1{
-   color:var(--color-text);
-}
-h2{
-    color:var(--color-text);
- }
 .boton::before,.boton::after{
     content: "";
     position: absolute;
@@ -191,43 +178,4 @@ html.transition *:after {
 }
 .centrar{
     text-align: center;
-}
-.inicio_sesion{
-    width: 300px;
-    height: 300px;
-    margin: 100px auto;
-    border: none;
-    border-radius: 10px;
-    background-color: var(--bg);
-    color:var(--color-text);
-    text-align: center;
-    justify-items: center;
-    
-}
-.bloque{
-    margin-top: 1rem;
-}
-
-.txtb{
-    margin-bottom: 1rem;
-    border-radius: 10px;
-}
-input[type=email],[type=password],[type=text]{
-    width:200px;
-    border:none;
-    border-radius: 10px;
-    outline:none;
-    background-color: var(--bg);
-    color:var(--color-text);
-
-}
-input[type=email]:focus,[type=password]:focus,[type=text]:focus{
-    border-color:dodgerBlue;
-    box-shadow:0 0 10px 0 dodgerBlue;
-}
-.logboton{
-    width:150px;
-    border-radius:10px;
-    height: 30px;
-    margin-bottom: 20px;
 }
