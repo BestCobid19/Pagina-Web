@@ -34,6 +34,7 @@ session_start();
                         <a class="dropdown-item nav-boton" href="covid-19.php"><i class="fas fa-info"></i> ¿Qué es el COVID-19?</a>
                         <a class="dropdown-item nav-boton" href="sintomas.php"><i class="fas fa-viruses"></i> Síntomas</i></a>
                         <a class="dropdown-item nav-boton" href="propaga.php"><i class="fas fa-question"></i> ¿Cómo se propaga la COVID-19?</a>
+                        <a class="dropdown-item nav-boton" href="coronatest.php"><i class="fas fa-question"></i> Test del COVID-19</a>
                     </div>
                 </div>
                 <li class="nav-item">
@@ -65,6 +66,12 @@ session_start();
                  </li>';
             }
             ?>
+            <li class="nav-item ml-auto">
+                    <a class="nav-link active" href="login.php"><i class="fas fa-user-plus"></i> Login</a>
+                </li>
+            <li class="nav-item ml-auto">
+                <a class="nav-link active" href="registro.php"><i class="fas fa-user-plus"></i> Registrarse</a>
+            </li>
             <button type="button" id="switch" class="boton ml-auto">Cambiar Tema</button>
         </div>
     </nav>
