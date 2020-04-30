@@ -57,10 +57,10 @@ session_start();
                  </form></li>');
             } else {
                 echo '
-                 <li class="nav-item ml-auto">
+                 <li class="ml-auto">
                  <a class="nav-link active" href="signup.php"><i class="fas fa-user-plus"></i> Registrarse</a>
                  </li>
-                 <li class="nav-item ml-auto">
+                 <li class="ml-auto">
                  <a class="nav-link active" href="login.php"> Logeate</a>
                  </li>';
             }
