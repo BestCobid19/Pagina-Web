@@ -35,7 +35,7 @@ include('header.php');
                     echo '<p class="signuperror">Contraseña incorrecta</p>';
                 }
                 else if ($_GET['error'] == "usertaken") {
-                    echo '<p class="signuperror">Username is alredy taken!</p>';
+                    echo '<p class="signuperror">El usuario/email ya estan en uso!</p>';
                 }
             }
           ?>
