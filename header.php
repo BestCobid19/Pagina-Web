@@ -58,10 +58,10 @@ session_start();
             } else {
                 echo '
                  <li class="nav-item ml-auto">
-                 <a class="nav-link active" href="signup.php" target="_blank"><i class="fas fa-user-plus"></i> Registrarse</a>
+                 <a class="nav-link active" href="signup.php"><i class="fas fa-user-plus"></i> Registrarse</a>
                  </li>
                  <li class="nav-item ml-auto">
-                 <a class="nav-link active" href="login.php" target="_blank"> Logeate</a>
+                 <a class="nav-link active" href="login.php"> Logeate</a>
                  </li>';
             }
             ?>
