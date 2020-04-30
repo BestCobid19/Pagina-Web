@@ -17,7 +17,7 @@ include('header.php');
                 <input type="password" name="pwd" placeholder="Contraseña">
             </div>
             <div>
-                <button type="submit" class="logboton" name="login-submit">LogIn</button>    
+                <button type="submit" class="logboton" name="login-submit">Log In</button>    
             </div>
         </form>
     </div>
