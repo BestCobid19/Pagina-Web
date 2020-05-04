@@ -20,22 +20,22 @@ include('header.php');
           <?php 
             if (isset($_GET['error'])){
                 if ($_GET['error'] == "emptyfields") {
-                    echo '<p class="signuperror">Completa todos los campos</p>';
+                    echo '<p class="bg-danger">Completa todos los campos</p>';
                 }
                 else if ($_GET['error'] == "invaliduidmail") {
-                    echo '<p class="signuperror">Usuario y email inconorrectos</p>';
+                    echo '<p class="bg-danger">Usuario y email inconorrectos</p>';
                 }
                 else if ($_GET['error'] == "invaliduid") {
-                    echo '<p class="signuperror">Usuario incorrecto</p>';
+                    echo '<p class="bg-danger">Usuario incorrecto</p>';
                 }
                 else if ($_GET['error'] == "invalidmail") {
-                    echo '<p class="signuperror">Email incorrecto</p>';
+                    echo '<p class="bg-danger">Email incorrecto</p>';
                 }
                 else if ($_GET['error'] == "passwordcheck") {
-                    echo '<p class="signuperror">Contraseña incorrecta</p>';
+                    echo '<p class="bg-danger">Contraseña incorrecta</p>';
                 }
                 else if ($_GET['error'] == "usertaken") {
-                    echo '<p class="signuperror">El usuario/email ya estan en uso!</p>';
+                    echo '<p class="bg-danger">El usuario/email ya estan en uso!</p>';
                 }
             }3
           ?>
