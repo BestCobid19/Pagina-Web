@@ -1,0 +1,39 @@
+<?php
+include('header.php');
+?>
+<div class="text-right container marginBot social-button">
+    <a href="#" target="_blank"><img src="img/instagram.png" alt="instagram" width="25px" class="logosRedes"></a>
+    <a href="https://www.youtube.com/channel/UC1U7M-rvlfWJ6mZcGQ33Mbw/videos" target="_blank"><img src="img/youtube.png" alt="youtube" width="25px" class="logosRedes"></a>
+    <a href="https://twitter.com/opsoms" target="_blank"><img src="img/twitter.png" alt="twitter" width="25px" class="logosRedes"></a>
+</div>
+<div class="inicio_sesion">
+    <div class="texto centrar">
+        <?php
+         $selector = $_GET["selector"];
+         $validator = $_GET["validator"];
+
+         if (empty($selector) || empty($validator)) {
+            echo "No hemos podido validar su solicitud!";
+         } else {
+             if (ctype_xdigit($selector) !== false && ctype_xdigit($validator) !== false) {
+                
+                ?>
+
+                <form action="includes/reset-password.inc.php" method="post">
+                   <input type="hidden" name="selector" value="<?php echo $selector ?>">;
+                   <input type="hidden" name="validator" value="<?php echo $validator ?>">;
+                   <input type="password" name="pwd" placeholder="Nueva Contraseña">
+                   <input type="password" name="pwd-repeat" placeholder="Repita la Nueva Contraseña">
+                   <button type="submit" name="reset-password-submit">Renovar</button>
+                </form>
+
+                <?php
+             }
+         }
+        ?>
+    </div>
+</div>
+
+<?php
+include('footer.php');
+?>

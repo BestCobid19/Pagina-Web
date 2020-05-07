@@ -20,6 +20,14 @@ include('header.php');
                 <button type="submit" class="logboton" name="login-submit">Log In</button>    
             </div>
         </form>
+        <?php
+        if (isset($_GET["newpwd"])){
+            if ($_GET["newpwd"] == "passwordupdated"){
+                echo '<p class="signupsuccess">Tu contraseña ha sido cambiada con éxito</p>';
+            }
+        }
+        ?>
+        <a href="reset-password.php">¿Has olvidado tu contraseña?</a>
     </div>
 </div>
 
