@@ -45,8 +45,8 @@ if (isset($_POST["reset-request-submit"])) {
     $message .= '<p>Aquí está tu link para renovar la contraseña: <br>';
     $message .= '<a href="' . $url . '">' . $url . '</a></p>';
 
-    $headers = "From: Proyecto Corona <proyectocorona@outlook.es>\r\n";
-    $headers .= "Reply-to: proyectocorona@outlook.es\r\n";
+    $headers = "From: Proyecto Corona <reyproyectocorona@gmail.com>\r\n";
+    $headers .= "Reply-to: reyproyectocorona@gmail.com\r\n";
     $headers .= "Content-type: text/html\r\n";
 
     mail($to, $subject, $message, $headers);
