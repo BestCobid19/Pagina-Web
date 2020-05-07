@@ -50,6 +50,12 @@ if (isset($_POST["reset-request-submit"])) {
     $headers .= "Content-type: text/html\r\n";
 
     mail($to, $subject, $message, $headers);
+    //$retval = mail($to, $subject, $message, $headers);
+    //if ( $retval == true) {
+    //    header("Location: ../reset-password.php?correoenviado");;
+    //} else {
+    //    header("Location: ../reset-password.php?erroralenviarelcorreo");;
+    //}
 
     header("Location: ../reset-password.php?reset=success");
 } else {
