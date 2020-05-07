@@ -14,7 +14,7 @@ include('header.php');
     <a href="https://twitter.com/opsoms" target="_blank"><img src="img/twitter.png"alt="twitter" width="25px" class="logosRedes"></a>
 </div>
 <div class="container borde">
-    <div class="row justify-content-around marginAll">
+    <div class="row justify-content-around texto">
         <div class="col-md-6 col-sm-12">
             <h1><span class="bordeIzquierdaFino"></span>Luchamos contra la desinformación.</h1>
             <p>Somos dos estudiantes de CFGM que tenemos como objetivo hacer esta página web para el proyecto de FCT con el final de informar a la población

@@ -34,17 +34,11 @@ session_start();
                         <a class="dropdown-item nav-boton" href="covid-19.php"><i class="fas fa-info"></i> ¿Qué es el COVID-19?</a>
                         <a class="dropdown-item nav-boton" href="sintomas.php"><i class="fas fa-viruses"></i> Síntomas</i></a>
                         <a class="dropdown-item nav-boton" href="propaga.php"><i class="fas fa-question"></i> ¿Cómo se propaga la COVID-19?</a>
+                        <a class="dropdown-item nav-boton" href="evitar_el_contagio.php" tabindex="-1" aria-disabled="true"><i class="fas fa-shield-virus"></i> Evite el contagio</a>
+                        <a class="dropdown-item nav-boton" href="lucha.php" tabindex="-1" aria-disabled="true"><i class="fas fa-fist-raised"></i></i> Lucha contra el coronavirus</a>
+                        <a class="dropdown-item nav-boton" href="bulos.php" tabindex="-1" aria-disabled="true"><i class="fas fa-bomb"></i></i> Bulos</a>
                     </div>
                 </div>
-                <li class="nav-item">
-                    <a class="nav-link active" href="evitar_el_contagio.php" tabindex="-1" aria-disabled="true"><i class="fas fa-shield-virus"></i> Evite el contagio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="lucha.php" tabindex="-1" aria-disabled="true"><i class="fas fa-fist-raised"></i></i> Lucha contra el coronavirus</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="bulos.php" tabindex="-1" aria-disabled="true"><i class="fas fa-bomb"></i></i> Bulos</a>
-                </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="https://coronavirus.app/map" target="_blank"><i class="far fa-hand-paper"></i> Coronavirus App</a>
                 </li>
@@ -52,19 +46,29 @@ session_start();
             </ul>
             <?php
             if (isset($_SESSION['userId'])) {
-                echo ('<li class="nav-item ml-auto"><form action="includes/logout.inc.php" method="post">
-                    <button type="submit" name="logout-submit">Logout</button>
-                 </form></li>');
+                echo ('
+                <div class="dropdown ml-auto">
+                    <button class="btn dropdown-toggle nav-link" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-user">'); ?> <?php echo $_SESSION['username']; ?> <?php echo ('</i>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item nav-boton" href="includes/logout.inc.php"></i> Logout</a>
+                        <a class="dropdown-item nav-boton" href="test.php">Test</a>
+                    </div>
+                </div>');
             } else {
                 echo '
-                 <li class="ml-auto">
-                 <a class="nav-link active" href="signup.php"><i class="fas fa-user-plus"></i> Registrarse</a>
-                 </li>
-                 <li class="ml-auto">
-                 <a class="nav-link active" href="login.php"> Logeate</a>
-                 </li>';
+                <div class="dropdown ml-auto">
+                    <button class="btn dropdown-toggle nav-link" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-user"></i>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item nav-boton" href="signup.php"></i> Registrarse</a>
+                    <a class="dropdown-item nav-boton" href="login.php"> Logeate</a>
+                    </div>
+                </div>';
             }
             ?>
-            <button type="button" id="switch" class="boton ml-auto">Cambiar Tema</button>
+            <button type="button" id="switch" class="boton">Cambiar Tema</button>
         </div>
     </nav>

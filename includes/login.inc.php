@@ -3,6 +3,7 @@
 if (isset($_POST['login-submit'])) {
 
     require 'dbh.inc.php';
+    
 
     $mailuid = $_POST['mailuid'];
     $password = $_POST['pwd'];
@@ -31,6 +32,8 @@ if (isset($_POST['login-submit'])) {
                     session_start();
                     $_SESSION['userId'] = $row['idUsers'];
                     $_SESSION['userUid'] = $row['uidUsers'];
+                    $_SESSION['username'] = $_POST['mailuid'];;
+                    
 
                     header("Location: ../index.php?login=success");
                     exit();

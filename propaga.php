@@ -4,7 +4,7 @@ include('header.php');
 
 <div class="jumbotron jumbotron-fluid jumbotron1">
     <div class="container">
-        <h1 class="display-4 bordeBot">Propagación del (COVID-19)</h1>
+        <h1 class="bordeBot">Propagación del (COVID-19)</h1>
 
 
     </div>
