@@ -20,8 +20,8 @@ include('header.php');
                 ?>
 
                 <form action="includes/reset-password.inc.php" method="post">
-                   <input type="hidden" name="selector" value="<?php echo $selector ?>">;
-                   <input type="hidden" name="validator" value="<?php echo $validator ?>">;
+                   <input type="hidden" name="selector" value="<?php echo $selector ?>">
+                   <input type="hidden" name="validator" value="<?php echo $validator ?>">
                    <input type="password" name="pwd" placeholder="Nueva Contraseña">
                    <input type="password" name="pwd-repeat" placeholder="Repita la Nueva Contraseña">
                    <button type="submit" name="reset-password-submit">Renovar</button>
