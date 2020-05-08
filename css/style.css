@@ -123,6 +123,7 @@ footer{
 .texto{
     margin-top: 3rem;
     margin-bottom: 3rem;
+    color: var(--color-text);
 }
 .bordeIzquierdaGordo{
     border-left: solid 7px var(--barrita);
