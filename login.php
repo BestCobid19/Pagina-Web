@@ -10,6 +10,20 @@ include('header.php');
     <h1 class="display-4 bordeBot">LogIn</h1>
     <div class="texto centrar">
         <form action="includes/login.inc.php" method="post">
+        <?php 
+            if (isset($_GET['error'])){
+                if ($_GET['error'] == "emptyfields") {
+                    echo '<p class="bg-danger">Completa todos los campos</p>';
+                }
+                else if ($_GET['error'] == "wrongpwd") {
+                    echo '<p class="bg-danger">Contraseña o Usuario incorrectos</p>';
+                }
+
+                else if ($_GET['error'] == "sqlerror") {
+                    echo '<p class="bg-danger">Error con la base de datos</p>';
+                }
+            }
+          ?>
             <div class="bloque">
                 <input type="text" name="mailuid" placeholder="Correo/Usuario">
             </div>

@@ -37,7 +37,7 @@ include('header.php');
                 else if ($_GET['error'] == "usertaken") {
                     echo '<p class="bg-danger">El usuario/email ya estan en uso!</p>';
                 }
-            }3
+            }
           ?>
             <div class="bloque">
                 <input type="text" name="uid" placeholder="Usuario">

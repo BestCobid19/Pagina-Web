@@ -25,7 +25,11 @@ if (isset($_POST["reset-password-submit"])){
         echo "Eso ha sido un error";
         exit();
     } else {
+<<<<<<< HEAD
          mysqli_stmt_bind_param($stmt, "ss", $selector, $currentDate);
+=======
+         mysqli_stmt_bind_param($stmt, "ss", $selector,$currentDate);
+>>>>>>> 7706245b6eb6690c07b09d71ddd93d55b1aceea1
          mysqli_stmt_execute($stmt);
 
          $result = mysqli_stmt_get_result($stmt);
