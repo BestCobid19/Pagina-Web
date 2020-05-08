@@ -85,11 +85,11 @@ footer{
     margin: 1rem;
 }
 .bordenavbar{
-    border-bottom: solid 0.2px var(--negro);
+    border-bottom: solid 0.2px var(--bg);
     background-color: var(--bg);
 }
 .borde{
-    border: solid 0.2px var(--negro);
+    border: solid 0.2px var(--color-text);
     padding: 2rem;
     margin-bottom: 2rem;
 }
@@ -100,7 +100,7 @@ footer{
 }
 .nav-link:hover {
     color: var(--color-text);
-    border-bottom: solid var(--blanco);
+    border-bottom: solid var(--color-text);
     
 }
 .nav-boton{
@@ -218,4 +218,6 @@ input[type=email]:focus,[type=password]:focus,[type=text]:focus{
     height: 30px;
     margin-top: 20px;
 }
-
+.colortexto{
+    color: var(--color-text);
+}

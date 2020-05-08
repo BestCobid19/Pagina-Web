@@ -6,7 +6,7 @@
       </div>
       <hr class="clearfix w-100 d-md-none pb-3">
       <div class="col-md-3 mb-md-0 mb-3">
-        <h5 class="text-uppercase ">Redes</h5>
+        <h5 class="text-uppercase colortexto">Redes</h5>
         <ul class="list-unstyled">
           <li>
             <a href="#!">www.instagram.com</a>
@@ -20,7 +20,7 @@
         </ul>
       </div>
       <div class="col-md-3 mb-md-0 mb-3">
-        <h5 class="text-uppercase ">Políticas</h5>
+        <h5 class="text-uppercase colortexto">Políticas</h5>
         <ul class="list-unstyled">
           <li>
             <a href="terminos.php">Términos y condiciones</a>
@@ -31,7 +31,7 @@
         </ul>
       </div>
       <div class="col-md-3 mb-md-0 mb-3">
-        <h5 class="text-uppercase ">Fuentes</h5>
+        <h5 class="text-uppercase colortexto">Fuentes</h5>
         <ul class="list-unstyled">
           <li>
             <a href="https://www.cdc.gov/spanish/" target="_blank">https://www.cdc.gov/spanish/</a>
@@ -50,7 +50,7 @@
     </div>
   </div>
   <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href=""> coronavirusproyect.com</a>
+    <a href=""> reycorona.epizy.com</a>
   </div>
 </footer>
 <script src="js/script.js"></script>
