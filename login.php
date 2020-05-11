@@ -7,7 +7,7 @@ include('header.php');
     <a href="https://twitter.com/opsoms" target="_blank"><img src="img/twitter.png" alt="twitter" width="25px" class="logosRedes"></a>
 </div>
 <div class="inicio_sesion">
-    <h1 class="display-4 bordeBot">LogIn</h1>
+    <h1 class="display-5 bordeBot">Iniciar sesión</h1>
     <div class="texto centrar">
         <form action="includes/login.inc.php" method="post">
         <?php 
@@ -41,7 +41,8 @@ include('header.php');
             }
         }
         ?>
-        <a href="reset-password.php">¿Has olvidado tu contraseña?</a>
+        <a href="reset-password.php">¿Has olvidado tu contraseña?</a><br>
+        <p>¿No tienes cuenta?</p><a href="signup.php"> Regístrate aquí</a> 
     </div>
 </div>
 

@@ -183,7 +183,7 @@ html.transition *:after {
 .inicio_sesion{
     width: 300px;
     height: 300px;
-    margin: 100px auto;
+    margin: 100px auto 200px auto;
     border: none;
     border-radius: 10px;
     background-color: var(--bg);
