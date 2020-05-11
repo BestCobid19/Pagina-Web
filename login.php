@@ -46,7 +46,8 @@ include('header.php');
             }
         }
         ?>
-        <a href="reset-password.php">¿Has olvidado tu contraseña?</a>
+        <a href="reset-password.php">¿Has olvidado tu contraseña?</a><br>
+        <p>¿No tienes cuenta?</p><a href="signup.php"> Regístrate aquí</a> 
     </div>
 </div>
 

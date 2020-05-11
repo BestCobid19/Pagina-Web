@@ -9,7 +9,7 @@ include('header.php');
 </div>
 <div class="jumbotron jumbotron-fluid jumbotron1">
     <div class="container">
-        <h1 class="display-4 bordeBot">Regístrese</h1>
+        <h1 class="display-5 bordeBot">Regístrese</h1>
     </div>
 </div>
 
@@ -56,6 +56,7 @@ include('header.php');
                 <button type="submit" class="logboton" name="signup-submit">Registro</button>    
             </div>
         </form>
+        <p>¿Ya tienes cuenta?<a href="login.php"> Inicia sesión</a>.</p>
     </div>
 </div>
 
