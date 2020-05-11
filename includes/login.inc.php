@@ -34,8 +34,10 @@ if (isset($_POST['login-submit'])) {
                     $_SESSION['userUid'] = $row['uidUsers'];
                     $_SESSION['username'] = $_POST['mailuid'];;
                     
-
-                    header("Location: ../login.php?login=success");
+                    
+                    header("Location: ../index.php");
+                    
+                   
                     exit();
                 }else {
                     header("Location: ../login.php?error=wrongpwd");
