@@ -6,8 +6,13 @@ include('header.php');
     <a href="https://www.youtube.com/channel/UC1U7M-rvlfWJ6mZcGQ33Mbw/videos" target="_blank"><img src="img/youtube.png" alt="youtube" width="25px" class="logosRedes"></a>
     <a href="https://twitter.com/opsoms" target="_blank"><img src="img/twitter.png" alt="twitter" width="25px" class="logosRedes"></a>
 </div>
+
+
 <div class="inicio_sesion">
-    <h1 class="display-4 bordeBot">LogIn</h1>
+    <div class="container">
+     <h1 class="display-4 bordeBot">Log In</h1>   
+    </div>
+    
     <div class="texto centrar">
         <form action="includes/login.inc.php" method="post">
         <?php 

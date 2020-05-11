@@ -52,7 +52,7 @@ session_start();
                         <i class="fas fa-user">'); ?> <?php echo $_SESSION['username']; ?> <?php echo ('</i>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item nav-boton" href="includes/logout.inc.php"></i> Logout</a>
+                        <a class="dropdown-item nav-boton" href="includes/logout.inc.php"></i>Cerrar sesión</a>
                         <a class="dropdown-item nav-boton" href="test.php">Test</a>
                     </div>
                 </div>');
@@ -64,7 +64,7 @@ session_start();
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item nav-boton" href="signup.php"></i> Registrarse</a>
-                    <a class="dropdown-item nav-boton" href="login.php"> Logeate</a>
+                    <a class="dropdown-item nav-boton" href="login.php">Iniciar sesión</a>
                     </div>
                 </div>';
             }
