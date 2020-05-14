@@ -222,3 +222,6 @@ input[type=email]:focus,[type=password]:focus,[type=text]:focus{
 .colortexto{
     color: var(--color-text);
 }
+.invisible{
+    visibility: hidden;
+}

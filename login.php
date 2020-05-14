@@ -9,9 +9,9 @@ include('header.php');
 
 
 <div class="inicio_sesion">
-    <div class="container">
-     <h1 class="display-4 bordeBot">Log In</h1>   
-    </div>
+   
+     <h1 class="bordeBot">Iniciar sesión</h1>   
+    
     
     <div class="texto centrar">
         <form action="includes/login.inc.php" method="post">
@@ -36,7 +36,7 @@ include('header.php');
                 <input type="password" name="pwd" placeholder="Contraseña">
             </div>
             <div>
-                <button type="submit" class="logboton" name="login-submit">Log In</button>    
+                <button type="submit" class="logboton" name="login-submit">Iniciar sesión</button>    
             </div>
         </form>
         <?php
