@@ -28,7 +28,7 @@ include('header.php');
             </ul>
         </div>
         <p>
-        En caso de tengas los sintomas propios del Coronavirus, es conveniente que llames al 112 o a alguno de los teléfonos de atención para el Coronavirus de cada comunidad autonoma que verás en esta lista.
+        En caso de tengas los sintomas propios del Coronavirus, es conveniente que llames al 112.
         </p>
         <p>
             Para evitar posibles contagios a otras personas es conveniente que sigas estos consejos de prevención:

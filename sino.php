@@ -28,7 +28,7 @@ include('header.php');
             </ul>
         </div>
         <p>
-        Es conveniente que te no te desplaces, llama al 112 o a cualquiera de estos teléfonos que aparecen en esta lista para comprobar tu estado y si es el caso, te darán instrucciones más precisas.
+        Es conveniente que te no te desplaces, llama al 112 para comprobar tu estado y si es el caso, te darán instrucciones más precisas.
         </p>
         <p>
             Para evitar posibles contagios a otras personas es conveniente que sigas estos consejos de prevención:
