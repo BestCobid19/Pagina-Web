@@ -1,4 +1,9 @@
 <?php
+            if (!isset($_SESSION['userId'])) {
+                header("Location:login.php");
+            } 
+?>
+<?php
 include('header.php');
 ?>
 <div class="jumbotron jumbotron-fluid jumbotron1">
@@ -14,13 +19,12 @@ include('header.php');
     <a href="https://twitter.com/opsoms" target="_blank"><img src="img/twitter.png" alt="twitter" width="25px" class="logosRedes"></a>
 </div>
 
-
 <div class="container borde">
     <div id="idTest" class="texto">
         <form id="test" class="test" action="">
             <h1 class="texto"><span class="bordeIzquierdaFino"></span>Pregunta 1</h1>
             <p><b>¿Tienes tos seca sin mucosidad con mucha frecuencia y además superas los 38º de fiebre que no baja al tomar paracetamol?</b></p>
-            <input type="radio" name="p1" id="si1" value="si1">Si<br>
+            <input type="radio" name="p1" id="si1" value="si1" >Si<br>
             <input type="radio" name="p1" id="no1" value="no1">No
 
             <h1 class="texto"><span class="bordeIzquierdaFino"></span>Pregunta 2</h1>
@@ -38,7 +42,7 @@ include('header.php');
             </div>
             <p>Contacto estrecho quiere decir que se haya dado alguna de estas situaciones:</p>
             <div class="marginIzquierda">
-                <ul class="col-6">
+                <ul class="col-auto">
                         <li>Vivir en la misma casa o estar en la misma habitación o compartir espacio de trabajo.</li>
                         <li>Tener contacto cara a cara, como por ejemplo, una conversación de más de unos minutos.</li>
                         <li>Si ha tosido cerca de ti.</li>
@@ -50,7 +54,7 @@ include('header.php');
             <input type="radio" name="p2" id="si2" value="si2" required>Si <br>
             <input type="radio" name="p2" id="no2" value="no2">No <br><br>
         </form>
-        <input type="button" id="resultado" value="MOSTRAR EL RESULTADO">
+        <input type="button" id="resultado" class="btn btn-dark" value="MOSTRAR EL RESULTADO">
     </div>
 </div>
 
