@@ -17,7 +17,7 @@ include('header.php');
 <div class="container borde">
     <div class="texto">
 
-        <h2 class="texto"><span class="bordeIzquierdaFino"></span>No te preocupes, pareces tener los síntomas propios del coronavirus (SARS-CoV-2) y has estado expuesto en situaciones de riesgo, pero aún asi eso no quiere decir que estés contagiado.</h2>
+        <h2 class="texto"><span class="bordeIzquierdaFino"></span>No te preocupes, no tienes los síntomas propios del coronavirus (SARS-CoV-2) pero como has estado expuesto con cierto riesgo te recomendamos que estés en cuarentena durante 14 días.</h2>
         <p>
             Has contestado que:
         </p>
