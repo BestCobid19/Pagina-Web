@@ -22,7 +22,7 @@ include('header.php');
             Has contestado que:
         </p>
         <div class="marginIzquierda">
-            <ul class="col-6">
+            <ul class="col-auto">
                 <li><b>NO </b>tienes todos los síntomas descritos.</li>
                 <li><b>NO </b>has estado en contacto con ningún caso sospechoso o confirmado o viajado a algunos países potencialmente peligrosos por coronavirus.</li>
             </ul>
@@ -37,7 +37,7 @@ include('header.php');
             Para que actués con la máxima precuación sigue los siguientes consejos de prevención:
         </p>
         <div class="marginIzquierda">
-            <ul class="col-6">
+            <ul class="col-auto">
                 <li>Lávate las manos a menudo (con agua y jabón o soluciones alcohólicas al 70%), especialmente después del contacto directo con otras personas.</li>
                 <li>Tápate la boca y la nariz con un pañuelo de un solo uso o con la parte del codo del brazo cuando no dispongas de ellos en el momento de estornudar o toser. Lávate las manos en seguida (con soluciones alcohólicas al 70% o con agua y jabón).</li>
                 <li>Evita el contacto directo (almenos una distancia de dos metros) con personas que padezcan infecciones respiratorias agudas y presenten tos, estornudos o expectoraciones, no compartas pertenencias personales.</li>

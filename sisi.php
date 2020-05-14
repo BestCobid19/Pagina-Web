@@ -22,7 +22,7 @@ include('header.php');
             Has contestado que:
         </p>
         <div class="marginIzquierda">
-            <ul class="col-6">
+            <ul class="col-auto">
                 <li><b>SI </b>tienes todos los síntomas descritos.</li>
                 <li><b>SI </b>has estado en contacto con ningún caso sospechoso o confirmado o viajado a algunos países potencialmente peligrosos por coronavirus.</li>
             </ul>
@@ -34,7 +34,7 @@ include('header.php');
             Para evitar posibles contagios a otras personas es conveniente que sigas estos consejos de prevención:
         </p>
         <div class="marginIzquierda">
-            <ul class="col-6">
+            <ul class="col-auto">
                 <li>Evita desplazarte temporalmente.</li>
                 <li>Evita el contacto con otras personas temporalmente.</li>
                 <li>Tápate la boca y la nariz con un pañuelo de un solo uso o con la parte del codo del brazo cuando no dispongas de ellos en el momento de estornudar o toser. Lávate las manos en seguida (con soluciones alcohólicas al 70% o con agua y jabón).</li>
