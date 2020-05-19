@@ -1,10 +1,11 @@
+
+<?php
+include('header.php');
+?>
 <?php
             if (!isset($_SESSION['userId'])) {
                 header("Location:login.php");
             } 
-?>
-<?php
-include('header.php');
 ?>
 <div class="jumbotron jumbotron-fluid jumbotron1">
     <div class="container">
