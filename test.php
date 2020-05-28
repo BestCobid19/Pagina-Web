@@ -2,7 +2,7 @@
 <?php
 include('header.php');
 ?>
-<?php
+<?php //Con esto solo dejamos entrar si estas logueado
             if (!isset($_SESSION['userId'])) {
                 header("Location:login.php");
             } 

@@ -1,5 +1,5 @@
 <?php
-include('header.php');
+include('header.php'); //Llamamos al Header.php
 ?>
 <div class="jumbotron jumbotron-fluid jumbotron1">
     <div class="container">
@@ -32,5 +32,5 @@ include('header.php');
     </div>
 </div>
 <?php
-include('footer.php');
+include('footer.php'); //Llamamos al Footer.php
 ?>

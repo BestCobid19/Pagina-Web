@@ -1,5 +1,5 @@
 <?php
-session_start();
+session_start();//Iniciamos sesion
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -46,7 +46,7 @@ session_start();
 
             </ul>
             <?php
-            if (isset($_SESSION['userId'])) {
+            if (isset($_SESSION['userId'])) { //Esto solo se mostrara a los usuarios que esten logueados
                 echo ('
                 <div class="dropdown ml-auto">
                     <button class="btn dropdown-toggle nav-link" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -57,7 +57,7 @@ session_start();
                         <a class="dropdown-item nav-boton" href="test.php">Test</a>
                     </div>
                 </div>');
-            } else {
+            } else { //Esto se mostrara a los usuarios que no esten logueados
                 echo '
                 <div class="dropdown ml-auto">
                     <button class="btn dropdown-toggle nav-link" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

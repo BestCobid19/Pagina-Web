@@ -18,7 +18,7 @@ include('header.php');
         <form action="includes/signup.inc.php" method="post">
 
           <?php 
-            if (isset($_GET['error'])){
+            if (isset($_GET['error'])){ //Con estro vamos mostrando difernetes errores si no completa todos los campos si el usuario esta en uso etc.
                 if ($_GET['error'] == "emptyfields") {
                     echo '<p class="bg-danger">Completa todos los campos</p>';
                 }

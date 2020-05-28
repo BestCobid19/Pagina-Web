@@ -16,15 +16,15 @@ include('header.php');
     <div class="texto centrar">
         <form action="includes/login.inc.php" method="post">
         <?php 
-            if (isset($_GET['error'])){
+            if (isset($_GET['error'])){ //Con esto hacemos que si no ha completado los campos salga un error
                 if ($_GET['error'] == "emptyfields") {
                     echo '<p class="bg-danger">Completa todos los campos</p>';
                 }
-                else if ($_GET['error'] == "wrongpwd") {
+                else if ($_GET['error'] == "wrongpwd") { //Con esto mostramos un error si la contraseña o el usuario estan mal
                     echo '<p class="bg-danger">Contraseña o Usuario incorrectos</p>';
                 }
 
-                else if ($_GET['error'] == "sqlerror") {
+                else if ($_GET['error'] == "sqlerror") { //Error si no se conecta con la base de datos
                     echo '<p class="bg-danger">Error con la base de datos</p>';
                 }
             }

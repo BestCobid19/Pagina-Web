@@ -3,9 +3,9 @@
 ?>
 
 <?php
-    if(isset($_SESSION['userId'])){
+    if(isset($_SESSION['userId'])){ //Si esta logueado lo mandamos a indexLogin
         header("Location: indexLogin.php");
-    }else{
+    }else{ //Y si no esta logueado lo mandamos a IndexNoLogin
         header ("Location: indexNoLogin.php");
     }
 ?>
