@@ -13,14 +13,14 @@ include('header.php');
     <a href="https://www.youtube.com/channel/UC1U7M-rvlfWJ6mZcGQ33Mbw/videos" target="_blank"><img src="img/youtube.png"alt="youtube" width="25px" class="logosRedes"></a>
     <a href="https://twitter.com/opsoms" target="_blank"><img src="img/twitter.png"alt="twitter" width="25px" class="logosRedes"></a>
 </div>
-<div class="container borde">
+<div class="container borde"> <!--dentro del container tenemos otro apartados --> 
     <div class="texto">
-        <h2 class="texto"><span class="bordeIzquierdaFino"></span>Bulos sobre el coronavirus (COVID-19)</h2>
+        <h2 class="texto"><span class="bordeIzquierdaFino"></span>Bulos sobre el coronavirus (COVID-19)</h2> <!--título-->
         <div class="row justify-content-around">
             <div class="col-md-auto col-sm-12">
-                <img src="img/laboratorio.png" alt="" srcset="" width="200rem">
+                <img src="img/laboratorio.png" alt="" srcset="" width="200rem"> <!--imagen-->
             </div>
-            <div class="col-md-8 col-sm-12">
+            <div class="col-md-8 col-sm-12"> <!--cada duv es un apartado donde añadimos información con sus respectivas fotos y clases para ajustarlo a la pantalla-->
                 <h3>¿De dónde sale el coronavirus?</h3>
                 <ul>
                     <p>El coronavirus COVID-19 fue creado en un laboratorio por humanos. <strong>FALSO</strong>. El análisis genético publicado
@@ -28,7 +28,6 @@ include('header.php');
                     </p>
                 </ul>
             </div>
-        </div>
         <br><br>
         <div class="row justify-content-around">
             <div class="col-md-auto col-sm-12">
