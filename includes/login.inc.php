@@ -29,7 +29,7 @@ if (isset($_POST['login-submit'])) { //Cogemos lo que nos envia el from login-su
                     exit();
                 }
                 else if ($pwdCheck == true) {
-                    session_start(); //iniciamos su sesion y guradamos su informacion en variables
+                    session_start(); //iniciamos su sesion y guardamos su informacion en variables
                     $_SESSION['userId'] = $row['idUsers'];
                     $_SESSION['userUid'] = $row['uidUsers'];
                     $_SESSION['username'] = $_POST['mailuid'];;

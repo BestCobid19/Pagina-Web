@@ -20,7 +20,7 @@ include('header.php');
             <div class="col-md-auto col-sm-12">
                 <img src="img/laboratorio.png" alt="" srcset="" width="200rem"> <!--imagen-->
             </div>
-            <div class="col-md-8 col-sm-12"> <!--cada duv es un apartado donde añadimos información con sus respectivas fotos y clases para ajustarlo a la pantalla-->
+            <div class="col-md-8 col-sm-12"> <!--cada div es un apartado donde añadimos información con sus respectivas fotos y clases para ajustarlo a la pantalla-->
                 <h3>¿De dónde sale el coronavirus?</h3>
                 <ul>
                     <p>El coronavirus COVID-19 fue creado en un laboratorio por humanos. <strong>FALSO</strong>. El análisis genético publicado

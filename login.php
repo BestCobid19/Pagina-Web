@@ -40,7 +40,7 @@ include('header.php');
             </div>
         </form>
         <?php
-        if (isset($_GET["newpwd"])){
+        if (isset($_GET["newpwd"])){ //al cambiar la contraseña verifica que los campos están bien y te manda un mensaje
             if ($_GET["newpwd"] == "passwordupdated"){
                 echo '<p class="signupsuccess">Tu contraseña ha sido cambiada con éxito</p>';
             }

@@ -15,7 +15,7 @@ include('header.php');
             <button type="submit" name="reset-request-submit">Enviar</button>
         </form>
         <?php
-        if (isset($_GET["reset"])){
+        if (isset($_GET["reset"])){ //comprobamos que ha puesto su mail y le manda un mensaje para que revise su correo
             if ($_GET["reset"] == "success"){
                 echo '<p class="signupsuccess">Revisa tu e-mail!</p>';
             }

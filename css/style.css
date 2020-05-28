@@ -1,15 +1,15 @@
 
-:root{
+:root{ /*creamos variables de colores */
     --gris: rgb(170, 170, 170);
     --negro: rgb(0, 0, 0);
     --blanco: rgb(255, 255, 255);
 }
-*{
+*{ /* damos margen padding y fuente a la página*/
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-html{
+html{ /*aquí creamos un modelo de página con sus diferentes colores */
     height:100%;
     
     align-items: center;
@@ -20,8 +20,8 @@ html{
     --color-text:#333333;
     --barrita:#FE9A2E;
     --boton: rgb(0, 0, 0);
-}
-html[data-theme='dark']{
+} 
+html[data-theme='dark']{ /*aquí tenemos el mismo modelo de página pero con colores más oscuros para crear un tema oscuro */
     --bg: #333333;
     --bg-panel: #333333;
     --color-headings:#333333;
@@ -29,12 +29,12 @@ html[data-theme='dark']{
     --barrita:#F7819F;
     --boton: rgb(255, 255, 255);
 }
-body{
+body{ /* colores para el body*/
     background-color: var(--bg);
     color: var(--color-text);
 
 }
-.boton{
+.boton{ /* damos un modelo a nuestro botón*/
     width:200px;
     height:50px;
     background:none;
@@ -46,9 +46,9 @@ body{
     font-size:14px;
     position: relative;
   
-   
+
 }
-.boton::before,.boton::after{
+.boton::before,.boton::after{ /*añadimos un content */
     content: "";
     position: absolute;
     width:14px;
@@ -57,7 +57,7 @@ body{
     transform:skewX(50deg);
     transition: .4s linear;
 }
-.boton::before{
+.boton::before{ /* before y after para darle una transición al botón*/
     top: -4px;
     left:10%;
 }
@@ -65,13 +65,13 @@ body{
     bottom:-4px;
     right: 10%;
 }
-.boton:hover::before{
+.boton:hover::before{ /* hover para que cuando tengamos el ratón sobre el botón haga la transición.*/
     left:80%;  
 }
 .boton:hover::after{
     right:80%;  
 }
-footer{
+footer{ /*damos formato al footer */
     border: solid 0.2px var(--negro);
     margin: 6rem 5rem 2rem 5rem;
     font-family: 'Gloria Hallelujah', cursive;
@@ -158,7 +158,7 @@ h3{
 
 
 
-
+ /* esto se utiliza para la transición del tema blanco al oscuro */
 html.transition,
 html.transition *,
 html.transition *:before,
@@ -200,7 +200,7 @@ html.transition *:after {
     margin-bottom: 1rem;
     border-radius: 10px;
 }
-input[type=email],[type=password],[type=text]{
+input[type=email],[type=password],[type=text]{ /*cogemos inputs para editar */
     width:200px;
     border:none;
     border-radius: 10px;
@@ -209,7 +209,7 @@ input[type=email],[type=password],[type=text]{
     color:var(--color-text);
 
 }
-input[type=email]:focus,[type=password]:focus,[type=text]:focus{
+input[type=email]:focus,[type=password]:focus,[type=text]:focus{ /*focus al input */
     border-color:dodgerBlue;
     box-shadow:0 0 10px 0 dodgerBlue;
 }
