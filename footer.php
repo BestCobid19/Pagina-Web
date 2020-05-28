@@ -1,6 +1,6 @@
 <footer class="bordefooter page-footer font-small blue pt-5">
   <div class="container-fluid text-center text-md-center">
-    <div class="row">
+    <div class="row"> <!--footer-->
       <div class="col-md-3 mt-md-0 mt-3">
         <a href=""><img src="img/covid.png" width="150" height="150" alt="covid-19"></a>
       </div>
@@ -12,14 +12,14 @@
             <a href="#!">www.instagram.com</a>
           </li>
           <li>
-            <a href="https://twitter.com/opsoms" target="_blank">www.twitter.com</a>
+            <a href="https://twitter.com/opsoms" target="_blank">www.twitter.com</a> <!--links de redes sociales -->
           </li>
           <li>
             <a href="https://www.youtube.com/channel/UC1U7M-rvlfWJ6mZcGQ33Mbw/videos" target="_blank">www.youtube.com</a>
           </li>
         </ul>
       </div>
-      <div class="col-md-3 mb-md-0 mb-3">
+      <div class="col-md-3 mb-md-0 mb-3"> <!--bootstrap css-->
         <h5 class="text-uppercase colortexto">Políticas</h5>
         <ul class="list-unstyled">
           <li>

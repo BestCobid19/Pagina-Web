@@ -9,16 +9,16 @@ include('header.php');
 <div class="inicio_sesion, container">
     <div class="texto centrar">
         <?php
-         $selector = $_GET["selector"];
-         $validator = $_GET["validator"];
+         $selector = $_GET["selector"]; //cogemos el selector 
+         $validator = $_GET["validator"]; //cogemos el validator
 
-         if (empty($selector) || empty($validator)) {
+         if (empty($selector) || empty($validator)) { //comprobamos si el selector o el validator estan vacios da errror
             echo "No hemos podido validar su solicitud!";
          } else {
              if (ctype_xdigit($selector) !== false && ctype_xdigit($validator) !== false) {
                 
                 ?>
-
+                <!--este es el form donde pondremos nuestra nueva contraseña -->
                 <form action="includes/reset-password.inc.php" method="post">
                    <input type="hidden" name="selector" value="<?php echo $selector ?>">
                    <input type="hidden" name="validator" value="<?php echo $validator ?>">
