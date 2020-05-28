@@ -1,23 +1,23 @@
 <?php
 
 
-require("class.phpmailer.php");
+require("class.phpmailer.php"); //coge las dos librerias
 require("class.smtp.php");
 
-if (isset($_POST["reset-request-submit"])) {
+if (isset($_POST["reset-request-submit"])) { //si se hace un request el selector coge un random byte entre 8 y el token entre 32
 
     $selector = bin2hex(random_bytes(8));
     $token = random_bytes(32);
 
-    $url = "www.reycorona.epizy.com/create-new-password.php?selector=" . $selector . "&validator=" . bin2hex($token);
+    $url = "www.reycorona.epizy.com/create-new-password.php?selector=" . $selector . "&validator=" . bin2hex($token); //forma una url con el selector ,el validator y el token
 
-    $expires = date("U") + 1800;
+    $expires = date("U") + 1800; //expira en la fecha actual + 30 minutos
 
-    require 'dbh.inc.php';
+    require 'dbh.inc.php'; //requiere base de datos 
 
     $userEmail = $_POST["email"];
 
-    $sql = "DELETE FROM pwdReset WHERE pwdResetEmail=?;";
+    $sql = "DELETE FROM pwdReset WHERE pwdResetEmail=?;"; 
     $stmt = mysqli_stmt_init($conn);
     if (!mysqli_stmt_prepare($stmt, $sql)){
         echo "Eso ha sido un error";
@@ -27,13 +27,13 @@ if (isset($_POST["reset-request-submit"])) {
          mysqli_stmt_execute($stmt);
     }
 
-    $sql = "INSERT INTO pwdReset (pwdResetEmail, pwdResetSelector, pwdResetToken, pwdResetExpires) VALUES (?, ?, ?, ?);";
+    $sql = "INSERT INTO pwdReset (pwdResetEmail, pwdResetSelector, pwdResetToken, pwdResetExpires) VALUES (?, ?, ?, ?);"; //insertamos dentro de las variables los values 
     $stmt = mysqli_stmt_init($conn);
     if (!mysqli_stmt_prepare($stmt, $sql)){
         echo "Eso ha sido un error";
         exit();
     } else {
-         $hashedToken = password_hash($token, PASSWORD_DEFAULT);
+         $hashedToken = password_hash($token, PASSWORD_DEFAULT); //comprueba el hashed token del password 
          mysqli_stmt_bind_param($stmt, "ssss", $userEmail, $selector, $hashedToken, $expires);
          mysqli_stmt_execute($stmt);
     }
